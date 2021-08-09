@@ -1,4 +1,4 @@
-### LINQ to path (package)
+### LINQ-based statistical calculation, data analysis functions package.
 
 |  Review  |
 |:------------:|
@@ -9,11 +9,20 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <br/>
-Create folder structures using Linq
-<br/>
-<br/>
-<br/>
-This nuget package is used to create various folder layouts for your C# applications/projects.
+This nuget package implements basic statistics and data analytics functions. 
 
-Online project located at [nuget gallery.](https://nuget.org/)
+__Some of them are displayed in the table below:__
+<br/>
 
+<br/>
+
+|  Function  |  Explanation  |
+|:------------:|:------------:|
+|  STDEVP()    | Standard Deviation Calc.             |
+|  MODE()      | Mode Value             |
+|  MEDIAN()    | Median Calc.              |
+
+<br/>
+<br/>
+
+Package is also installable from [online nuget source.](https://nuget.org/)
