@@ -30,6 +30,16 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+   <PropertyGroup>
+    <OutputType>dll</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <PackageId>LinqDataCalc</PackageId>
+    <Version>1.0.2.1</Version>
+    <Authors>chr dek.</Authors>
+    <Company>chrdek</Company>
+    <PackageDescription>Linq Data Analysis and Statistics Extensions Package</PackageDescription>
+    <RepositoryUrl>https://github.com/chrdek/LinqDataCalc</RepositoryUrl>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
