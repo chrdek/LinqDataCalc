@@ -1,4 +1,4 @@
-### LINQ-based statistical calculation, data analysis functions package.
+### LINQ-based statistical calculation, data analysis functions package
 
 |  Review  |
 |:------------:|
