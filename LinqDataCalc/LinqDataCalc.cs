@@ -125,11 +125,14 @@ public static double ExpectedValue(this IEnumerable<double> probabilities, IEnum
         /// <code>var result = Enumerable.Range(1,10).Factorial();</code>
         /// </example> 
 public static IEnumerable<int> Factorial(this IEnumerable<int> values) {
-      foreach (var i in values)
-        if (i == 0)
+      foreach (var i in values) {
+        if (i == 0) {
        yield return 1;
-         else
+}
+         else {
        yield return Enumerable.Range(1, i).Aggregate((x, y) => x * y);
+  }
+ }
 }
 
         /// <summary>
@@ -203,7 +206,7 @@ foreach (var dv in values) {
 public static object TenPowerOf(this int powOf) {
 Func <string> create10 = () =>"10"+ new String('0',(powOf-1));
 try {
-Func<int,ulong> TenPowOfX = (x) => checked(Convert.ToUInt64(create10.Invoke()));
+Func<int,ulong> TenPowOfX = (x) => Convert.ToUInt64(create10.Invoke());
 return TenPowOfX.Invoke(powOf);
  }
 catch (OverflowException) { return (float)Math.Pow(10,powOf); }
@@ -376,11 +379,11 @@ public static IList<Tuple<int,ulong,long,double,decimal>> AsNumberTuples(this IE
 var Numerals = elements.Where(t => t is int || t is ulong || t is long || t is double || t is decimal);
 List<Tuple<int,ulong,long,double,decimal>> numbertup = new List<Tuple<int,ulong,long,double,decimal>>();
 foreach (var N in Numerals) {
-	if(N is Int32) numbertup.Add(Tuple.Create((int)N,(ulong)0,(long)0,0.0,0.0m));
-	if(N is UInt64) numbertup.Add(Tuple.Create(0,(ulong)N,(long)0,0.0,0.0m));
-	if(N is Int64) numbertup.Add(Tuple.Create(0,(ulong)0,(long)N,0.0,0.0m));
-	if(N is Double) numbertup.Add(Tuple.Create(0,(ulong)0,(long)0,(double)N,0.0m));
-	if(N is Decimal) numbertup.Add(Tuple.Create(0,(ulong)0,(long)0,0.0,(decimal)N));
+	if(N is Int32) { numbertup.Add(Tuple.Create((int)N,(ulong)0,(long)0,0.0,0.0m)); }
+	if(N is UInt64) { numbertup.Add(Tuple.Create(0,(ulong)N,(long)0,0.0,0.0m)); }
+	if(N is Int64) { numbertup.Add(Tuple.Create(0,(ulong)0,(long)N,0.0,0.0m)); }
+	if(N is Double) { numbertup.Add(Tuple.Create(0,(ulong)0,(long)0,(double)N,0.0m)); }
+	if(N is Decimal) { numbertup.Add(Tuple.Create(0,(ulong)0,(long)0,0.0,(decimal)N)); }
  }
 return numbertup;
 }
@@ -406,10 +409,12 @@ public static List<string> LetterCombinationsOf(this string strElement) {
 		Func<int,bool> verifyMask = (x) => ((maskCnt & (1 << x)) > 0);
 		Func<char,int> getElement = (y) => strElement.IndexOf(y,0);
 		
-           if (verifyMask.Invoke(getElement(i)))
+           if (verifyMask.Invoke(getElement(i))) {
             s+= strElement[getElement(i)];
-           else
+           }
+           else {
 			s+= "-";
+           }
         }
         finSet.Add(s.ToString());
     }
