@@ -416,7 +416,7 @@ public static List<string> LetterCombinationsOf(this string strElement) {
 			s+= "-";
            }
         }
-        finSet.Add(s.ToString());
+        finSet.Add(s);
     }
     return finSet;
 }
