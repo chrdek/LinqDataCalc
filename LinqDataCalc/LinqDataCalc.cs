@@ -59,6 +59,75 @@ return  ((elements.Count() % 2) == 0);
 }
 
         /// <summary>
+        /// Compare the bytes in two 1-dimensional byte arrays.
+        /// </summary>
+        /// <param name="larray"></param>
+        /// <param name="rarray"></param>
+        /// <returns>True or False depending on the result</returns>
+        /// <example>
+        /// Check whether two 1-dimensional byte arrays are equal.
+        /// <code>
+        /// byte[] b1 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,255,0,0,184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,14,31,32,100};
+        /// byte[] b2 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,20,0,0,0,0,0,0,128,0,0,0,14,31,186,14,0,180,9,205,33,184,1,76,103,114};
+        /// bool result = b1.CompareBytes(b2);
+        /// </code>
+        /// </example>
+public static bool CompareBytes(this byte[]larray, byte[] rarray) {
+return (!larray.Any() || !rarray.Any()) ? false : larray.Zip(rarray, (x,y) => x^y).Aggregate((x,inc) => x+inc) == 0;
+}
+
+        /// <summary>
+        /// Checks two 1-dimensional byte arrays and returns a list of the positions where the bytes are different with the byte values.
+        /// </summary>
+        /// <param name="mainarr">The main byte array to be compared</param>
+        /// <param name="diffarr">The secondary byte array to be compared against</param>
+        /// <returns>An Dictionary with the different bytes and the array positions that contains the difference against.</returns>
+        /// <example>
+        /// Check two 1-dimensional byte arrays, and return a list of different bytes and the point of difference.
+        /// <code>
+        /// byte[] b1 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,255,0,0,184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,14,31,32,100};
+        /// byte[] b2 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,20,0,0,0,0,0,0,128,0,0,0,14,31,186,14,0,180,9,205,33,184,1,76,103,114};
+        /// var result = b1.DiffBytes(b2);
+        /// </code>
+        /// </example>
+public static IDictionary<int,int> DiffBytes(this byte[]mainarr,byte[]diffarr) {
+int pos = 0;
+IDictionary<int,int> diffs = new Dictionary<int,int>();
+foreach (byte b in mainarr) {
+var comp = (b ^ diffarr[pos]) == 0 ? 0 :b;
+if (comp != 0) {
+  diffs.Add(pos,comp);
+  }
+  pos++;
+ }
+ return diffs;
+}
+
+        /// <summary>
+        /// Checks whether two 2-dimensional arrays of any element type are equal.
+        /// </summary>
+        /// <typeparam name="T">Any kind of elements in a sequence</typeparam>
+        /// <param name="a">The first sequence to be compared</param>
+        /// <param name="b">The second sequence to be compared against the first</param>
+        /// <returns>True or False depending on the result</returns>
+        /// <example>
+        /// Check whether two 2-dimensinonal arrays of any type are equal.
+        /// <code>int[,] intArray1 = new int[4,4]{{432,31,32,43},{324,321,55,31},{110,34,543,13},{90,321,453,12}};
+                  int[,] intArray2 = new int[4,4]{{110,43,120,301},{54,312,321,91},{99,45,21,12},{9,32,45,152}};
+                  bool res = intArray1.SequenceEquals(intArray2);
+
+                  byte[,] barray1 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
+                  byte[,] barray2 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
+                  bool res = barray1.SequenceEquals(barray2);
+        /// </code>
+        /// </example>
+public static bool SequenceEquals<T>(this T[,] a, T[,] b) => a.Rank == b.Rank
+    && Enumerable.Range(0, a.Rank).All(d=> a.GetLength(d) == b.GetLength(d))
+    && a.Cast<T>().SequenceEqual(b.Cast<T>());
+
+
+
+        /// <summary>
         /// Calculates the standard deviation value of integer numeric sequence.
         /// </summary>
         /// <param name="values">The numeric sequence used as input</param>
