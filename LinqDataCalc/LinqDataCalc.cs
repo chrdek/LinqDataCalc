@@ -112,13 +112,13 @@ if (comp != 0) {
         /// <returns>True or False depending on the result</returns>
         /// <example>
         /// Check whether two 2-dimensinonal arrays of any type are equal.
-        /// <code>int[,] intArray1 = new int[4,4]{{432,31,32,43},{324,321,55,31},{110,34,543,13},{90,321,453,12}};
-                  int[,] intArray2 = new int[4,4]{{110,43,120,301},{54,312,321,91},{99,45,21,12},{9,32,45,152}};
-                  bool res = intArray1.SequenceEquals(intArray2);
-
-                  byte[,] barray1 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
-                  byte[,] barray2 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
-                  bool res = barray1.SequenceEquals(barray2);
+        /// <code> int[,] intArray1 = new int[4,4]{{432,31,32,43},{324,321,55,31},{110,34,543,13},{90,321,453,12}};
+        ///        int[,] intArray2 = new int[4,4]{{110,43,120,301},{54,312,321,91},{99,45,21,12},{9,32,45,152}};
+        ///        bool res = intArray1.SequenceEquals(intArray2);
+        /// 
+        ///        byte[,] barray1 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
+        ///        byte[,] barray2 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
+        ///        bool res = barray1.SequenceEquals(barray2);
         /// </code>
         /// </example>
 public static bool SequenceEquals<T>(this T[,] a, T[,] b) => a.Rank == b.Rank
