@@ -233,7 +233,7 @@ public static int PowerOf(this int value, int powBy) {
         /// </code>
         /// </example> 
 public static IEnumerable<long> ToIntPowerOf(this IEnumerable<int> values, int val) {
-Func<int,long,long> XPowOfY = (x,y) => (long)Math.Pow(x,val);
+Func<int,long,long> XPowOfY = (x,y) => (long)Math.Pow(x,y);
 
 foreach (var v in values) {
  yield return XPowOfY(v,val);
