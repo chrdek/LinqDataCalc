@@ -4,7 +4,7 @@
 |:------------:|
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ee67475c8df4295bea124f199615af1)](https://www.codacy.com/gh/chrdek/LinqDataCalc/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chrdek/LinqDataCalc&amp;utm_campaign=Badge_Grade) |
 | [![Total alerts](https://img.shields.io/lgtm/alerts/g/chrdek/LinqDataCalc.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/chrdek/LinqDataCalc/alerts/) |
-| ![Nuget](https://img.shields.io/nuget/dt/LinqDataCalc) |
+| ![Nuget](https://img.shields.io/nuget/dt/LinqDataCalc?logo=nuget) |
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
