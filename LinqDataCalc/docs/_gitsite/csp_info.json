@@ -1,0 +1,18 @@
+https://web.dev/csp/#summary <--details.
+/* TODO: cdn loading, alternative "nonce-" usage for inlines (staging env.)
+ const strictMetaTag = document.createElement('meta');
+ strictMetaTag.setAttribute('http-equiv', 'Content-Security-Policy');
+ strictMetaTag.setAttribute('content', "script-src 'self'; style-src 'self'; child-src 'none'");
+ document.head.prepend(strictMetaTag);
+*/
+
+
+{
+    "csp-report": {
+    "document-uri": "http://example.org/page.html",
+    "referrer": "http://evil.example.com/",
+    "blocked-uri": "http://evil.example.com/evil.js",
+    "violated-directive": "script-src 'self' https://apis.google.com",
+    "original-policy": "script-src 'self' https://apis.google.com; report-uri http://example.org/my_amazing_csp_report_parser"
+    }
+}

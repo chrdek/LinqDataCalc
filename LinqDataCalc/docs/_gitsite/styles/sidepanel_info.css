@@ -1,0 +1,68 @@
+/* Side panel with data feeds section */
+.sidebar {
+  width: 12%;
+  height: 25vh;
+  min-height: 360px;
+  overflow: auto;
+  position: sticky;
+  /*position: -webkit-sticky;*/
+  top: 10%; /* or from top: 0; */
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 4% 98%, #67aa6a 0%, #31dcff 100%);
+}
+
+.sidebar:hover { 
+  filter: drop-shadow(0 0 15px #67aa6a);
+  opacity(0.9);
+  transition: 0.5s;
+}
+
+.sidebar.sm:hover {
+  filter: drop-shadow(0 0 15px #67aa6a);
+  opacity:(0.9);
+  transition: 0.5s;
+}
+
+.sidebar.sm {
+font-size:15px;
+}
+/* Side panel end */
+.main {
+  width: 60%;
+  height: 200vh;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main,
+.sidebar {
+  border: 5px solid #222;
+  background-color: white;
+  border-radius: 10px;
+  color: #222;
+  padding: 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  padding: 3%;
+  /*background-color: #ccc;*/
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+code, pre {
+  background-color: #ccc;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+
+.bottom {
+  justify-self: bottom;
+}

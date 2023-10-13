@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  commentId: T:LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  id: LinqDataCalcExtensions.AlgoType
+  parent: LinqDataCalc
+  children:
+  - LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistLoop
+  - LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR1
+  - LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR2
+  langs:
+  - csharp
+  - vb
+  name: LinqDataCalcExtensions.AlgoType
+  nameWithType: LinqDataCalcExtensions.AlgoType
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  type: Enum
+  source:
+    remote:
+      path: LinqDataCalc/LinqDataCalc.cs
+      branch: main
+      repo: https://github.com/chrdek/LinqDataCalc.git
+    id: AlgoType
+    path: LinqDataCalc.cs
+    startLine: 229
+  assemblies:
+  - LinqDataCalc
+  namespace: LinqDataCalc
+  summary: >-
+    Enum implementation for selecting multiple algorithms
+
+    for hamming distance used for integer comparison.
+  example:
+  - >-
+    Usage as below:
+
+    <pre><code class="lang-csharp">AlgoType.DistLoop // selects method 1
+
+    AlgoType.DistXOR1 // selects method 2
+
+    AlgoType.DistXOR2 // selects method 3</code></pre>
+  syntax:
+    content: public enum LinqDataCalcExtensions.AlgoType
+    content.vb: Public Enum LinqDataCalcExtensions.AlgoType
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistLoop
+  commentId: F:LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistLoop
+  id: DistLoop
+  parent: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  langs:
+  - csharp
+  - vb
+  name: DistLoop
+  nameWithType: LinqDataCalcExtensions.AlgoType.DistLoop
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistLoop
+  type: Field
+  source:
+    remote:
+      path: LinqDataCalc/LinqDataCalc.cs
+      branch: main
+      repo: https://github.com/chrdek/LinqDataCalc.git
+    id: DistLoop
+    path: LinqDataCalc.cs
+    startLine: 231
+  assemblies:
+  - LinqDataCalc
+  namespace: LinqDataCalc
+  syntax:
+    content: DistLoop = 0
+    return:
+      type: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR1
+  commentId: F:LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR1
+  id: DistXOR1
+  parent: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  langs:
+  - csharp
+  - vb
+  name: DistXOR1
+  nameWithType: LinqDataCalcExtensions.AlgoType.DistXOR1
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR1
+  type: Field
+  source:
+    remote:
+      path: LinqDataCalc/LinqDataCalc.cs
+      branch: main
+      repo: https://github.com/chrdek/LinqDataCalc.git
+    id: DistXOR1
+    path: LinqDataCalc.cs
+    startLine: 232
+  assemblies:
+  - LinqDataCalc
+  namespace: LinqDataCalc
+  syntax:
+    content: DistXOR1 = 1
+    return:
+      type: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR2
+  commentId: F:LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR2
+  id: DistXOR2
+  parent: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  langs:
+  - csharp
+  - vb
+  name: DistXOR2
+  nameWithType: LinqDataCalcExtensions.AlgoType.DistXOR2
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR2
+  type: Field
+  source:
+    remote:
+      path: LinqDataCalc/LinqDataCalc.cs
+      branch: main
+      repo: https://github.com/chrdek/LinqDataCalc.git
+    id: DistXOR2
+    path: LinqDataCalc.cs
+    startLine: 233
+  assemblies:
+  - LinqDataCalc
+  namespace: LinqDataCalc
+  syntax:
+    content: DistXOR2 = 2
+    return:
+      type: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+references:
+- uid: LinqDataCalc
+  commentId: N:LinqDataCalc
+  href: LinqDataCalc.html
+  name: LinqDataCalc
+  nameWithType: LinqDataCalc
+  fullName: LinqDataCalc
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  commentId: T:LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  parent: LinqDataCalc
+  href: LinqDataCalc.LinqDataCalcExtensions.html
+  name: LinqDataCalcExtensions.AlgoType
+  nameWithType: LinqDataCalcExtensions.AlgoType
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  spec.csharp:
+  - uid: LinqDataCalc.LinqDataCalcExtensions
+    name: LinqDataCalcExtensions
+    href: LinqDataCalc.LinqDataCalcExtensions.html
+  - name: .
+  - uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+    name: AlgoType
+    href: LinqDataCalc.LinqDataCalcExtensions.AlgoType.html
+  spec.vb:
+  - uid: LinqDataCalc.LinqDataCalcExtensions
+    name: LinqDataCalcExtensions
+    href: LinqDataCalc.LinqDataCalcExtensions.html
+  - name: .
+  - uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+    name: AlgoType
+    href: LinqDataCalc.LinqDataCalcExtensions.AlgoType.html

@@ -1,0 +1,811 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LinqDataCalc</name>
+    </assembly>
+    <members>
+        <member name="T:LinqDataCalc.LinqDataCalcExtensions">
+            <summary>
+            Main LinqDataCalcExtensions Class implementation.
+            </summary>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ModeValues(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>   
+            Retrieve the mode values in a sequence of numbers.
+            (The most frequently occuring number - ordered)
+            </summary>
+            <param name="elements">The numeric sequence used as input</param>
+            <returns>An IEnumerable KeyValuePair with Key=total per the mode value and Value=occuring value in the sequence.</returns>
+            <example>
+            Get the top used values in an IEnumerable.
+            <code>int[] num_seq = { -990,-940,-770,-599,-543,-513,-482,-451,-445,-371,-240,-371,-940 };
+            var num = num_seq.AsEnumerable();
+            var result = num.ModeValues();
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MedianValue(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Return the median value in an -ordered- numeric sequence.
+            </summary>
+            <param name="elements">The numeric sequence used as input</param>
+            <returns>Double median value for the selected sequence</returns>
+            <example>
+            Get the median value in an IEnumerable.
+            <code>int[] num_seq = { -990,-940,-770,-599,-543,-513,-482,-451,-445,-371,-240 };
+            var num = num_seq.AsEnumerable();
+            double result = num.MedianValue();
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.OddOrEven``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Checks whether the total length of a sequence is odd or even.
+            </summary>
+            <typeparam name="T">Any kind of elements in a sequence</typeparam>
+            <param name="elements">The data sequence to be checked</param>
+            <returns>True or False depending on the result</returns>
+            <example>
+            Check whether length of IEnumerable is odd or even.
+            <code> bool oddlen = new int[]{4,43,13,50,40}.OddOrEven();</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.CompareBytes(System.Byte[],System.Byte[])">
+            <summary>
+            Compare the bytes in two 1-dimensional byte arrays.
+            </summary>
+            <param name="larray"></param>
+            <param name="rarray"></param>
+            <returns>True or False depending on the result</returns>
+            <example>
+            Check whether two 1-dimensional byte arrays are equal.
+            <code>
+            byte[] b1 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,255,0,0,184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,14,31,32,100};
+            byte[] b2 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,20,0,0,0,0,0,0,128,0,0,0,14,31,186,14,0,180,9,205,33,184,1,76,103,114};
+            bool result = b1.CompareBytes(b2);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.DiffBytes(System.Byte[],System.Byte[])">
+            <summary>
+            Checks two 1-dimensional byte arrays and returns a list of the positions where the bytes are different with the byte values.
+            </summary>
+            <param name="mainarr">The main byte array to be compared</param>
+            <param name="diffarr">The secondary byte array to be compared against</param>
+            <returns>An Dictionary with the different bytes and the array positions that contains the difference against.</returns>
+            <example>
+            Check two 1-dimensional byte arrays, and return a list of different bytes and the point of difference.
+            <code>
+            byte[] b1 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,255,0,0,184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,14,31,32,100};
+            byte[] b2 = new byte[]{77,90,144,0,3,0,0,0,4,0,0,0,255,20,0,0,0,0,0,0,128,0,0,0,14,31,186,14,0,180,9,205,33,184,1,76,103,114};
+            var result = b1.DiffBytes(b2);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.SequenceEquals``1(``0[0:,0:],``0[0:,0:])">
+            <summary>
+            Checks whether two 2-dimensional arrays of any element type are equal.
+            </summary>
+            <typeparam name="T">Any kind of elements in a sequence</typeparam>
+            <param name="a">The first sequence to be compared</param>
+            <param name="b">The second sequence to be compared against the first</param>
+            <returns>True or False depending on the result</returns>
+            <example>
+            Check whether two 2-dimensinonal arrays of any type are equal.
+            <code> int[,] intArray1 = new int[4,4]{{432,31,32,43},{324,321,55,31},{110,34,543,13},{90,321,453,12}};
+                   int[,] intArray2 = new int[4,4]{{110,43,120,301},{54,312,321,91},{99,45,21,12},{9,32,45,152}};
+                   bool res = intArray1.SequenceEquals(intArray2);
+            
+                   byte[,] barray1 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
+                   byte[,] barray2 = new byte[3,3]{{132,56,32},{30,45,10},{92,100,48}};
+                   bool res = barray1.SequenceEquals(barray2);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.HammingWeight(System.UInt32)">
+            <summary>   
+            Hamming Weight Calculation for bit-depth of integers (UInt support of 32-bit integer values)
+            Utilizes direct "bit manipulation, bit swapping" algorithm for hamming weight calculation.
+            </summary>
+            <param name="in_x">The integer value to return the numerical weight for</param>
+            <returns>The calculated integer value of hamming weight</returns>
+            <example>
+            Calculate the resulting hamming weight of an integer value.
+            <code>
+            uint testVal = 0x10043091; //int values
+            int result = testVal.HammingWeight();
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.HammingWeight(System.UInt64)">
+            <summary>   
+            Hamming Weight Calculation for bit-depth of long integers (ULong support of 64-bit integer values)
+            Utilizes direct "bit manipulation, bit swapping" algorithm for hamming weight calculation.
+            </summary>
+            <param name="in_x">The long integer value to return the numerical weight for</param>
+            <returns>The calculated integer value of hamming weight</returns>
+            <example>
+            Calculate the resulting hamming weight of a long integer value.
+            <code>
+            ulong testVal = 0x8891930311; //large int values
+            int result = testVal.HammingWeight();
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.HammingDist(System.String,System.String)">
+            <summary>   
+            Hamming distance calculation for comparing two strings of equal length
+            Retrieves the different characters count in both strings
+            </summary>
+            <param name="leftStr">The left string part</param>
+            <param name="rightStr">The right string part</param>
+            <returns> Maximum integer value in case both strings are not equal in legth,
+            Number of differences in both strings otherwise.
+            </returns>
+            <example>
+            Retrieve a default value as result if strings are not equal or hamming comparison value.
+            <code> int res = "ABCDHFGF".HammingDist("ABCDEFO9"); //res equals to 3
+            int res = "ABC".HammingDist("AAABBBCCCDD77"); //res equals to MaxInt
+            int res = "A8udhhG".HammingDist("A8udhhG"); //res equals to 0
+            int res = "A8udhhG".HammingDist("A8UDHHG"); //res equals to 4
+            </code>
+            </example>
+        </member>
+        <member name="T:LinqDataCalc.LinqDataCalcExtensions.AlgoType">
+            <summary>   
+            Enum implementation for selecting multiple algorithms
+            for hamming distance used for integer comparison.
+            </summary>
+            <example>
+            Usage as below:
+            <code>
+            AlgoType.DistLoop // selects method 1
+            AlgoType.DistXOR1 // selects method 2
+            AlgoType.DistXOR2 // selects method 3
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo(System.Int32,System.Int32,LinqDataCalc.LinqDataCalcExtensions.AlgoType)">
+            <summary>   
+            Hamming Distance calculation between two integer numbers
+            using different algorithm variants, multiple algo. selections.
+            (Calculated bit-level differences between numerical values)
+            </summary>
+            <param name="leftNum">The leftmost number to compare with</param>
+            <param name="rightNum">The rightmost number to be compared with</param>
+            <param name="hamming_alg">The hamming distance algorithm selection
+            Can only use: AlgoType.DistLoop, AlgoType.DistXOR1, AlgoType.DistXOR2
+            for setting appropriate variant to use.
+            </param>
+            <returns></returns>
+            <example>
+            Calculating the hamming distance between two integers
+            by using different methods.
+            <code>int res = (-995).HammingDistAlgo((-48),LinqDataCalcExtensions.AlgoType.DistXOR1);
+            int res = (-995).HammingDistAlgo((-48),LinqDataCalcExtensions.AlgoType.DistXOR2);
+            int res = (-995).HammingDistAlgo((-48),LinqDataCalcExtensions.AlgoType.DistLoop);
+            //Result in all cases above = 7
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.LevnDist(System.String,System.String)">
+            <summary>   
+            Levenshtein distance for two input strings and edit differences for those.
+            (Can be applied between two strings of equal or differing length in size)
+            </summary>
+            <param name="strLeft">The leftmost string to find edit diffs from</param>
+            <param name="strRight">The rightmost string to compare edit diffs with</param>
+            <returns>Calculated sum or edit distance per input set of strings as integer.</returns>
+            <example>
+            Calculate the levenshtein distance between strings left, right.
+            <code>int result = "Paints".LevnDist("ants"); //result = 2
+            int result = "Compute".LevnDist("Confuse"); // result  = 3
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur(System.String,System.String,System.Int32[0:,0:])">
+            <summary>  
+            A recursive Levenstein implementation utilizing memoized cache for faster execution time.
+            (Can be applied between two strings of equal or differing length in size)
+            </summary>
+            <param name="leftStrIn">The leftmost string to find edit diffs from</param>
+            <param name="rightStrIn">The rightmost string to compare edit diffs with</param>
+            <param name="memo">The matrix to store the intermediary distance cost results in
+            Note: Needs to be the same size as NxM such that N = length of leftStrIn, M = length of rightStrIn
+            </param>
+            <returns>Calculated sum or edit distance per input set of strings as integer.</returns>
+            <example>
+             Calculate the levenshtein distance between strings left, right.
+            <code>int result = "test2".LevnDistRecur("arst22",new int[("test2".Length)+1,("arst22".Length)+1]); // result = 3
+            int result = "Sam".LevnDistRecur("Samantha",new int[("Sam".Length)+1,("Samantha".Length)+1]); // result = 5
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Calculates the standard deviation value of integer numeric sequence.
+            </summary>
+            <param name="values">The numeric sequence used as input</param>
+            <returns>Standard deviation double result</returns>
+            <example>
+            Calculates STDEVP().
+            <code> double result = new int[]{10,23,13,50,4}.StandardDeviation();</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Int64})">
+            <summary>
+            Calculates the standard deviation value of large integer numeric sequence.
+            </summary>
+            <param name="values">The numeric sequence used as input</param>
+            <returns>Standard deviation double result</returns>
+            <example>
+            Calculates STDEVP() for doubles.
+            <code> double result = new double[]{0.1124,2.311,4.11,2.94,5.51).StandardDeviation();</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Double})">
+            <summary>
+            Calculates the standard deviation value of double numeric sequence.
+            </summary>
+            <param name="values">The numeric sequence used as input</param>
+            <returns>Standard deviation double result</returns>
+            <example>
+            Calculates STDEVP() for long.
+            <code> double result = new long[]{394392,93993,323993,49240,49329}.StandardDeviation();</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ExpectedValue(System.Collections.Generic.IEnumerable{System.Double},System.Collections.Generic.IEnumerable{System.Double})">
+            <summary>
+            Based on a number list of probability values and a secondary list of possible expected outcomes of that probability,
+            retrieve the overall expected value of the frequency of occurence on the inital observation/event.
+            </summary>
+            <param name="probabilities">List of probability values</param>
+            <param name="outcomes">List of expected outcome values</param>
+            <returns>The expected outcome/frequency of occurence value</returns>
+            <example>
+            Calculates Expected value of two probability sequences.
+            <code> double expected = new double[]{1,2,3,4,5,6,7,8}.ExpectedValue(Enumerable.Repeat(0.125,8));</code>
+            </example> 
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.FiboSeq(System.Int32)">
+            <summary>
+            Fibonacci sequence for a given number as input.
+            </summary>
+            <param name="numLimit">The max number that fibonacci seq. gets generated for</param>
+            <returns>An IEnumerable with fibonacci numbers.</returns>
+            <example>
+            Get the resulting numeric fibonacci sequence.
+            <code>
+            var seq_out = 10.FiboSeq();
+            var seq_out = 100.FiboSeq();
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.HappySeq(System.Int32)">
+            <summary>
+            For a provided maximum value, generate
+            happy numbers sequence up to that value.
+            </summary>
+            <param name="endLimit">The numeric sequence upper limit to generate the happy numbers for</param>
+            <returns>A list of integer numbers.</returns>
+            <example>
+            Get the integers in a sequence that produce a happy sum.
+            <code>
+            var list_out = 150.HappySeq();
+            var list_out = 10.HappySeq();
+            var list_out = 0.HappySeq(); //list_out Length = 0
+            var list_out = 1.HappySeq(); //list_out Length = 1 (value = 1)
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator(System.Int32)">
+            <summary>
+            Fibonacci sequence yield utilizing generator functions.
+            </summary>
+            <param name="num">The max number that fibonacci seq. gets generated for</param>
+            <returns>An IEnumerable with large fibonacci numbers.</returns>
+            <example>
+            Get the resulting numeric fibonacci sequence.
+            <code>
+            var seq_out = 10.FiboSeqGenerator();
+            var seq_out = 100.FiboSeqGenerator();
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.Factorial(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Calculates the factorial of any given value, from a provided range of values.
+            </summary>
+            <param name="values">List of input values</param>
+            <returns>The list of factorials based on their original values</returns>
+            <example>
+            Calculates Factorial values for an IEnumerable.
+            <code>var result = Enumerable.Range(1,10).Factorial();</code>
+            </example> 
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.add(System.Int32,System.Int32)">
+            <summary>
+            Binary addition of two integer numbers incl. carry digits.
+            (negative or positive integer numerical values only)
+            </summary>
+            <param name="from_x">Numerical value x to perform the addition to</param>
+            <param name="add_y">Numerical value y to use in addition operation</param>
+            <returns>The integer result of the addition operation</returns>
+            <example>
+            Retrieve the result of adding integer y to underlying value x or vice-versa.
+            <code>
+            int result1 = 100.add(93);
+            int result2 = -90.add(54);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.subtract(System.Int32,System.Int32)">
+            <summary>
+            Binary subtraction of two integer numbers incl. carry digits.
+            (negative or positive integer numerical values only)
+            </summary>
+            <param name="from_x">Numerical value x to perform the subtraction from</param>
+            <param name="sub_y">Numerical value y to use in subtraction operation</param>
+            <returns>The integer result of the subtraction operation</returns>
+            <example>
+            Retrieve the result of subtracting integer y from underlying value x or vice-versa.
+            <code>
+            int result = -483.subtract(53);
+            int result = -483.subtract(403);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.PowerOf(System.Int32,System.Int32)">
+            <summary>
+            Raises a number to the Nth power recursively.
+            </summary>
+            <param name="value">The integer to raise to the Nth power</param>
+            <param name="powBy">The Nth power value</param>
+            <returns>Result of the power of a number</returns>
+            <example>
+            Calculates Nth power of an integer.
+            <code>int result = new int[]{4,43,13,50,40}.Select(n=>n.PowerOf(3));</code>
+            </example> 
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)">
+            <summary>
+            Raises each number in a sequence to the Nth power.
+            </summary>
+            <param name="values">The list of integers to be raised to the Nth power</param>
+            <param name="val">The Nth power value</param>
+            <returns>Resulting list of large integers raised to the Nth power</returns>
+            <example>
+            Calculates Nth power of all integers in IEnumerable.
+            <code>
+            int[] num_seq = { -990,-940,-770,-599,-543,-513,-482,-451,-445,-371,-240,-371,-940 };
+            var num = num_seq.AsEnumerable();
+            var result = num.ToIntPowerOf(3);
+            </code>
+            </example> 
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf(System.Collections.Generic.IEnumerable{System.Int32},System.Double)">
+            <summary>
+            Raises each number in a sequence to the Nth power(where N is double).
+            </summary>
+            <param name="values">The list of integers to be raised to the Nth double power</param>
+            <param name="val">The Nth power double value</param>
+            <returns>Resulting list of double values raised to the Nth power</returns>
+            <example>
+            Calculates Nth double power of all integers in IEnumerable.
+            <code> 
+            int[] num_seq = { -990,-940,-770,-599,-543,-513,-482,-451,-445,-371,-240,-371,-940 };
+            var num = num_seq.AsEnumerable();
+            var result = num.ToDoublePowerOff(2.71);
+            </code>
+            </example> 
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.TenPowerOf(System.Int32)">
+            <summary>
+            Returns the value of 10 raised to the power of N value.
+            </summary>
+            <param name="powOf">The Nth power value</param>
+            <returns>Result of the 10 in the power of N (can be float,int,ulong)</returns>
+            <remarks>The function will not output negative values</remarks>
+            <example>
+            Calculates Nth power of number 10.
+            <code>long tenthousand = (4).TenPowerOf(); </code>
+            </example> 
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.IterateAt``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+            <summary>
+            Retrieves a range of values from a list iteratively as a nested list.
+            Element list at index 1 at indexes 1,2 at 1,2,3 up to N.
+            </summary>
+            <typeparam name="T">Any type of elements in the list</typeparam>
+            <param name="elements">List of elements used as input</param>
+            <param name="size">Number of max iterations that lists are retrieved</param>
+            <returns>A nested enumerable list that has a maximum length defined by -size- parameter</returns>
+            <example>
+            Get the Nth iteration of an IEnumerable in nested form.        
+            <code>
+            int[] num_seq = { -990,-940,-770,-599,-543,-513,-482,-451,-445,-371,-240,-371,-940 };
+            var num = num_seq.AsEnumerable();
+            var result = num.IterateAt(4);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ChunkOf``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+            <summary>
+            Retrieves chunks of size N from a list as a nested list.
+            </summary>
+            <typeparam name="T">Any type of elements in the list</typeparam>
+            <param name="elements">List of elements used as input</param>
+            <param name="len">Length of N - chunks that the elements list is to be splitted into</param>
+            <returns>A nested enumerable list of which sub lists are chunks of equal length</returns>
+            <example>
+            Split an IEnumerable into chunks of Length N.
+            <code>
+            int[] num_seq = { -990,-940,-770,-599,-543,-513,-482,-451,-445,-371,-240,-371,-940 };
+            var num = num_seq.AsEnumerable();
+            var result = num.ChunkOf(3);
+            </code>
+            </example>
+        </member>
+        <member name="T:LinqDataCalc.LinqDataCalcExtensions.Node">
+            <summary>   
+            Class implementation for BTree Nodes, BTree operations.
+            </summary>
+            <example>
+            Usage as below:
+            (This represents a set of nodes for a BTree of height = 3-including root Node-)
+            <code>
+            Node leaf1 = new Node(null, null);
+            Node leaf2 = new Node(null, null);
+            Node node = new Node(leaf1, null);
+            Node root = new Node(node, leaf2);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.BTreeGen(System.Double,System.Int32)">
+            <summary>   
+            Generate a binary tree of random height, based on a prespecified complexity
+            factor value (needs to be of double data type).
+            </summary>
+            <param name="nodeDensity">The density factor of which to generate the random tree nodes with</param>
+            <param name="depth">The b-tree depth for which to determine the height with</param>
+            <returns>A randomly generated b-tree root with leaf nodes that consist of Node data type</returns>
+            <example>
+            Generate a binary tree of specified depth N with random nodes density.
+            <code>
+            var tree_root = 0.543.BTreeGen(6);
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.BTreeGen2(System.Int32,System.Double)">
+            <summary>   
+            Generate a range of binary trees of random height, based on a prespecified complexity
+            factor value (needs to be of double data type) and yields an enumerable based on those b-trees.
+            </summary>
+            <param name="depth">The b-tree depth for which to determine the height with</param>
+            <param name="nodeDensity">The density factor of which to generate the random tree nodes with</param>
+            <returns>An IEnumerable of multiple b-tree roots with random leaf nodes that consist of Node data type</returns>
+            <example>
+            Generate a binary tree range of specified depth N with random nodes density.
+            <code>
+            var ienum_tree_roots = LinqDataCalcExtensions.BTreeGen2(3,0.75); 
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.BTreeHeight(LinqDataCalc.LinqDataCalcExtensions.Node)">
+            <summary>   
+            Calculation of a b-tree total height counting edges from 
+            the root node, to the end of the leafs of the data structure.
+            (Utilizes queuing on adding/removing nodes for height calculation)
+            </summary>
+            <param name="input">The root node of the b-tree of which to calculate the height from.</param>
+            <returns>Calculated b-tree data structure height (root node = start).</returns>
+            <example>
+            Calculate the b-tree height from the root node to outer leafs.
+            <code>
+            var tree_root = 0.543.BTreeGen(6); //creates a root b-tree of size 6
+            LinqDataCalcExtensions.BTreeHeight(tree_root); // result of total height 5
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill(System.Collections.Generic.IEnumerable{System.Int32},System.Object)">
+            <summary>
+            Retrieve a list with random integer or decimal numbers depending on input provided.
+            </summary>
+            <param name="retIntSeq">The list used as input</param>
+            <param name="number">A numeric value, decimal or integer</param>
+            <returns>A list of random values</returns>
+            <example>
+            Get an IEnumerable filled with random integer/double values.
+            <code>
+            var resultInt = Enumerable.Repeat(0,10).IEnumRndFill(5); // fills with  random integers
+            var resultDouble = Enumerable.Repeat(0,10).IEnumRndFill(1.5); // fills with random doubles
+            </code>
+            </example>        
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Int32,System.Int32}},System.Int32)">
+            <summary>
+            Retrieve a dictionary with random integer numbers and a randomly produced string.
+            </summary>
+            <param name="dictionary"></param>
+            <param name="length">The maximum amount of info produced</param>
+            <returns>A dictionary of key=string/value=Tuple(int,int) type layout filled with random values</returns>
+            <example>
+            Get an IDictionary filled with string keys and corresponding integer random values.
+            <code> // 1 - full code not shown.. Initialize a dictionary of key-value type key=string/value=Tuple(int,int)
+                   //2 - call following method of the dictionary -> dict_var.DictionaryRndFill(10); </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.RndIntTuple(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Provided a list of integer values you, retrieve a list of tuples and random integer with random string values.
+            </summary>
+            <param name="elements">A list of default integers to be modified</param>
+            <returns>A list of tuples with random integers and string values</returns>
+            <remarks>This works using argument deconstruction by ValueTuple type (available with C# >= 7, .NET >= 4.7, VS 2019)
+            Already included *.dll reference for ValueTuples (currently .NET = 4.6.*)
+            </remarks>
+            <example>
+            Get an List Tuple filled with random integers and random strings.
+            <code>var resRndInt = Enumerable.Range(1,10).RndIntTuple();</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple(System.Collections.Generic.IEnumerable{System.Int32},System.Double)">
+            <summary>
+            Provided a list of integer values you, retrieve a list of tuples and random doubles with random string values.
+            </summary>
+            <param name="elements">A list of default integers to be modified</param>
+            <param name="scaleFact">The scaling factor by which double values are created</param>
+            <returns>A list of tuples with random doubles and string values</returns>
+            <remarks>This works using argument deconstruction by ValueTuple type (available with C# >= 7, .NET >= 4.7, VS 2019)
+            Already included *.dll reference for ValueTuples (currently .NET = 4.6.*)
+            </remarks>
+            <example>
+            Get a List Tuple filled with random doubles and random strings.
+            <code>var resRndDouble = Enumerable.Range(1,10).RndDoubleTuple(.001);</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples(System.Collections.Generic.IEnumerable{System.Object})">
+            <summary>
+            Retrieve a list of numeric tuples from an input list of objects.
+            </summary>
+            <param name="elements">The list of objects to be used as input</param>
+            <returns>A list of tuples with the relevant data types retrieved from the objects list</returns>
+            <example>
+            Get a List of zero-filled Tuples with numeric values (int/ulong/long/double/decimal).
+            <code>
+            object[] types = { "###","hello1","!*",439,30,12,1.3,3.2m,new List{1,3,5,78,14,24,40,9},'d',3283782378289,"2902",92.4m,"345,2",881.74m,30333.1434,-43902,(new int[]{10,490,20,103,40,30}),930 };
+            var resTuple = types.AsNumberTuples();
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix(System.String,System.Int32[0:,0:])">
+            <summary>   
+            Present a sequence of numbers in a string,
+            into a 2-dimensional matrix (letters and some characters are ommited)
+            that has zero-fill for extra positions in case that array is larger than input.
+            </summary>
+            <param name="StrNum">The string of numbers to be used as input</param>
+            <param name="twodimOut">The 2d matrix to be used as output</param>
+            <returns>A 2-dimensional integer matrix, of prespecified dimensions N x M</returns>
+            <example>
+            Retrieve ONLY numbers from a string represented in a 2d matrix array.
+            Note: Minimum array dimensions are 2x2 (used as default when input length less than 4 or when overallocating array space).
+            <code>
+            int[,] result = "2911".ToIntMatrix(new int[4,4]); // Result OK with zero padding
+            int[,] result = "2962728abcs1119__1".ToIntMatrix(new int[4,10]); //Result OK with zero padding
+            int[,] result = "2962728abcs1119__1".ToIntMatrix(new int[4,2]); //Result OK, trimmed
+            int[,] result = "2962728abcs1119__1".ToIntMatrix(new int[4,3]); //Result OK
+            int[,] result = "2962728abcs1119__1".ToIntMatrix(new int[10,10]); //Result n/a, trimmed to 2x2 with zero padding
+            int[,] result = "29".ToIntMatrix(new int[1,2]); //Result n/a, trimmed to 2x2 with zero padding
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix(System.String,System.String)">
+            <summary>   
+            Levenshtein edit distance matrix retrieval with full set of calculations.
+            (Can be applied between two strings of equal or differing length in size)
+            </summary>
+            <param name="str1">The leftmost string to compare edit diffs from</param>
+            <param name="str2">The rightmost string to compare edit diffs with</param>
+            <returns>An enumerable of the entire 2-dimensional edit distances matrix with all distance calculations.</returns>
+            <example>
+            Calculate the levenshtein distance of two strings, return the entire set of iterations, 
+            element at array position [N,M] is the result of the total diff distance.
+            <code>var result_ienum = "test2".LevnDistEditMatrix("arst22"); //last matrix element = 3
+            var result_ienum = "ant".LevnDistEditMatrix("aunt"); //last matrix element = 1
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose``1(``0[0:,0:])">
+             <summary>
+             Transposes a 2-dimensional array of different data type such that rows N become columns M and vice-versa.
+             </summary>
+             <typeparam name="T">Any kind of elements in a sequence</typeparam>
+             <param name="matrixIn">The 2-dimensional input matrix to invert rows with columns from</param>
+             <returns>Transposed 2-dimensional matrix of the original input array for any kind of array elements.</returns>
+             <example>
+             Transpose 2-dimensional matrix of dimensions [N,M].
+             <code>
+             int[,] matrixT1 = new int[6,2] { {3,4},{5,9},{10,44},{3,77},{88,0},{0,90} }; //test with integers matrix
+             
+             double[,] matrixT2 = new double[5,9]{ {9.0,34.0,0.99,3.1,9.4,4.51,9.87,1.43,9.88}, {2.4,22.01,55.10,9.09,1.30,9.99,10.45,9.0,8.01},
+                                                   {4.6,4.3,3.4,68.009,45.92,3.54,9.89,5.69,0.849},{1.2,4.5,33.5,54.4,45.9,5.89,9.09,1.223,4.54},
+                                                   {4.5,1.0,4,42.9,9.9,9.9,9,9,9} }; //test with doubles matrix
+            
+             var resultT1 = matrixT1.MatrixTranspose(); // results in a 2x6 matrix
+             var resultT2 = matrixT2.MatrixTranspose();  // results in a 9x5 matrix
+             </code>
+             </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose``1(``0[][])">
+            <summary>
+            Transposes a 2-dimensional jagged -or uneven- array of different data type such that rows N become columns M and vice-versa.
+            </summary>
+            <typeparam name="T">Any kind of elements in a sequence</typeparam>
+            <param name="matrixIn">The 2-dimensional jagged array to invert rows with columns from</param>
+            <returns>Transposed 2-dimensional jagged array of the original input array for any kind of array elements.</returns>
+            <example>
+            Transposed 2-dimensional jagged array of dimensions [N][M].
+            <code>
+            string[][] matrixT3 = new string[][]{ //test with strings array
+            new string[12]{"This", "is a", "test","this","side","should","appear","on the left","of ","your","screen","if the"},
+            new string[12]{" script"," has ","been run ","as", " expected.","Test ","run"," already ","for a ","matrix of ","nxm size "," where n is" },
+            new string[12]{"equal to 3"," and ","m equal"," to "," twelve"," If n"," and  m","increase"," or decrease then","output should","vary ","accordingly"}
+            };
+            
+            var resultT3 = matrixT3.MatrixTranspose(); //results in a 12x3 jagged array [12][3]
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.VectorProduct(System.Int32[],System.Int32[])">
+            <summary>
+            Calculation of the dot product for integer vectors N -vector multiplication-
+            </summary>
+            <param name="v1">First integer array vector to multiply values from</param>
+            <param name="v2">Second integer array vectr to multiply values with</param>
+            <returns>An integer IEnumerable containing the dot product values based on the initial vectors</returns>
+            <example>
+            Calculate and retrieve the dot product of multiplying two vectors as an IEnumerable.
+            <code>
+            int[] vect1 = {2,3,3}; // First vector
+            int[] vect2 = {3,2,2}; // Second vector
+            var result = vect1.VectorProduct(vect2); // result is an IEnumerable list of multipl. values
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2(System.Int32[0:,0:],System.Int32[0:,0:],System.Int32)">
+            <summary>
+            Matrix dot product calculation for 2-dimensional integer arrays of shape NxM.
+            (Outputs the finalized product matrix in either list of lists or standard 2-d array format)
+            </summary>
+            <param name="mtrx1">First integer matrix to be used for multipl. product</param>
+            <param name="mtrx2">Second integer matrix to be multiplied with for multipl. product</param>
+            <param name="twoDim">Selection option to retrieve the product result as a list of sublists or as a normal 2-dimensional matrix</param>
+            <returns>An Object of either List of sublists type or int[,] type that defines product matrix result.</returns>
+            <example>
+            Calculate and retrieve the dot product of multiplying two matrices in both list-of-lists format or 
+            standard 2-dimensional array format. This can be determined by a variable, defaults to 2-dimensional array output.
+            <code>
+            var result_1 = new int[4,2]{{2,2},{3,7},{8,4},{8,5}}.MatrixProductv2(new int[2,3]{{1,2,4},{12,42,9}},0); // Results to 2-dim array output
+            var result_2 = new int[4,2]{{2,2},{3,7},{8,4},{8,5}}.MatrixProductv2(new int[2,3]{{1,2,4},{12,42,9}},1); // Results to list of lists output
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MatrixProduct(System.Int32[0:,0:],System.Int32[0:,0:])">
+            <summary>
+            Matrix dot product calculation for 2-dimensional integer arrays of shape NxM.
+            (PLINQ utilization for large data sets handling)
+            </summary>
+            <param name="matrixA">First integer matrix to be used for multipl. product</param>
+            <param name="matrixB">Second integer matrix to be multiplied with for multipl. product</param>
+            <returns>The product matrix in a 2-dimensional matrix format</returns>
+            <example>
+            Calculate and retrieve the dot product of multiplying the two input matrices.
+            <code>
+            var result = new int[4,2]{{2,2},{3,7},{8,4},{8,5}}.MatrixProduct(new int[2,3]{{1,2,4},{12,42,9}}); // Result as a 2-dim array
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal(System.Int32[0:,0:],System.Boolean)">
+            <summary>
+            Retrieve either the maximum or minimum value in a 2-dimensional integer matrix.
+            </summary>
+            <param name="mtrx">Input matrix to retrieve max-min values from</param>
+            <param name="isMax">Option to retrieve either the maximum or minimum value from 2-dimensional dataset from</param>
+            <returns>The maximum or minimum integer value of the input matrix</returns>
+            <example>
+            Retrieve the maximum, or minimum integer value from the input matrix.
+            <code>
+            int[,] arr2d = new int[,]{{10,40,13,40},{9,10,40,99},{9,10,40,99},{9,10,49,19},{9,10,40,990},{9,10,422,99}};
+            var result = arr2d.MaxMatrixVal() // defaults to maximum value = 990
+            var result = arr2d.MaxMatrixVal(false) // retrieve minimum value = 9
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal(System.Int32[][],System.Boolean)">
+            <summary>
+            Retrieve either the maximum or minimum value in a jagged array data structure.
+            </summary>
+            <param name="mtrx">Input matrix to retrieve max-min values from</param>
+            <param name="isMax">Option to retrieve either the maximum or minimum value from the jagged array dataset</param>
+            <returns>The maximum or minimum integer value of the input array of arrays</returns>
+            <example>
+            Retrieve the maximum, or minimum integer value from the input array of arrays.
+            <code>
+            int[] arr1 = new int[] {1,2,3,5,4};
+            int[] arr2 = new int[] {3,2,1,0,10,39,10,43,11};
+            int[] arr3 = new int[]{24,1,90};
+            int[][] main_arr = new int[][]{arr1,arr2,arr3};
+            var result = main_arr.MaxMultiDimVal() // defaults to maximum value = 90
+            var result = main_arr.MaxMultiDimVal(false) // retrieve minimum value = 0
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.MaxCollVals(System.Collections.Generic.List{System.Collections.Generic.List{System.Int32}},System.Boolean)">
+            <summary>
+            Retrieve either the maximum or minimum set of value from every nested integer list-of-lists data structure.
+            </summary>
+            <param name="inputColl">Input nested list to retrieve max-min set of values from</param>
+            <param name="isMax">Option to retrieve either the maximum or minimum values per subset in every list-of-lists dataset</param>
+            <returns>An integer list containing the maximum value of each column-compared subset in list-of lists</returns>
+            <example>
+            Retrieve all the maximum, or minimum integer values for each column-based subset in the input nested list.
+            <code>
+            // 1 - Provided that you initialize a list of lists (code not shown..)
+            // . . . 
+            allValues.Add(valuesSet1); // 2 - populate the lists of lists
+            allValues.Add(valuesSet2);
+            allValues.Add(valuesSet3);
+            allValues.Add(valuesSet4);
+            var result = allValues.MaxCollVals(); //defaults to maximum subset of values for every column-compared subset of lists
+            var result = allValues.MaxCollVals(false); //results to minimum subset of values for every column-compared subset of lists
+            </code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf(System.String)">
+            <summary>
+            Retrieve all letter combinations (power sets) of a provided string.
+            </summary>
+            <param name="strElement">The string of letters used as input</param>
+            <returns>A list of all combinations for the input string</returns>
+            <example>
+            Get a List of strings displaying letter combinations.
+            <code>var combinations = ("He1l01!").LetterCombinationsOf();</code>
+            </example>        
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.GetRandomElements``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+            <summary>
+            Retrieve a list of random elements from an input list.
+            </summary>
+            <typeparam name="T">Any type of elements in the list</typeparam>
+            <param name="elements">The list of elements to be used as input</param>
+            <param name="totElements">The maximum number of random elements to be retrieved</param>
+            <returns>A list of random elements with specified total length</returns>
+            <example>
+            Get an IEnumerable of 10 randomly selected elements.
+            <code>var tenElements = Enumerable.Range(1,100).GetRandomElements(10);</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ReorderElements``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Retrieve a list of random elements from an input list -using natural reordering-.
+            </summary>
+            <typeparam name="T">Any type of elements in the list</typeparam>
+            <param name="elements"></param>
+            <returns>A reording elements iterator result with the Random object seed</returns>
+            <example>
+            Get an IEnumerable of 10 reordered elements.
+            <code>var tenElements = Enumerable.Range(1,10).ReorderElements().Take(10);</code>
+            </example>
+        </member>
+        <member name="M:LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator``1(System.Collections.Generic.IEnumerable{``0},System.Random)">
+            <summary>
+            Implementation of the iterative functionality for the list reording.
+            </summary>
+            <typeparam name="T">Any type of elements in the list</typeparam>
+            <param name="elements">The list of elements to be used as input</param>
+            <param name="prng">The Random object to be used as seed for shuffling indexes</param>
+            <returns>A list of reordered elements using random index shuffling in the initial list</returns>
+        </member>
+    </members>
+</doc>

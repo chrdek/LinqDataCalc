@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Can I Use updates</title>
+<link href="https://caniuse.com/feed"></link>
+<author><name>Alexis Deveria</name>
+</author>
+<updated>2023-08-19-07:00</updated>
+<id>urn:uuid:ba72bcbd-3c88-8bbf-c0d3-4c1a42f24b09</id>
+<entry>
+<title>New feature: zstd (Zstandard) content-encoding</title>
+<link href="https://caniuse.com/zstd"></link>
+<id>urn:uuid:f8b592d8-3ca4-191f-8896-51fe52857c0f</id>
+<updated>2023-08-19T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/zstd&quot;&gt;zstd (Zstandard) content-encoding&lt;/a&gt;: &lt;p&gt;Data compression method providing faster page loading while using less CPU power on the server.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: Scoped Styles: the @scope rule</title>
+<link href="https://caniuse.com/css-cascade-scope"></link>
+<id>urn:uuid:c98d7588-b7a1-50d5-5696-f1f7a086d4df</id>
+<updated>2023-07-03T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-cascade-scope&quot;&gt;Scoped Styles: the @scope rule&lt;/a&gt;: &lt;p&gt;Allows CSS rules to be scoped to part of the document, with upper and lower limits described by selectors.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: View Transitions API (single-document)</title>
+<link href="https://caniuse.com/view-transitions"></link>
+<id>urn:uuid:2cb57935-a114-7aba-2a64-a06c7e64394b</id>
+<updated>2023-06-11T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/view-transitions&quot;&gt;View Transitions API (single-document)&lt;/a&gt;: &lt;p&gt;Provides a mechanism for easily creating animated transitions between different DOM states, while also updating the DOM contents in a single step. This API is specific to single-document transitions, support for same-origin cross-document transitions is &lt;a href=&quot;https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md&quot;&gt;being planned&lt;/a&gt;.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: Passkeys</title>
+<link href="https://caniuse.com/passkeys"></link>
+<id>urn:uuid:69453e4f-2f9d-6474-bc65-3df2d68f2225</id>
+<updated>2023-06-10T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/passkeys&quot;&gt;Passkeys&lt;/a&gt;: &lt;p&gt;Passkeys, also known as Multi-device FIDO Credentials, provide users with an alternative to passwords that is much easier to use and far more secure.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: CSS text-wrap: balance</title>
+<link href="https://caniuse.com/css-text-wrap-balance"></link>
+<id>urn:uuid:cd8b2ec9-0169-10c4-d011-d1e63b3fd340</id>
+<updated>2023-06-08T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-text-wrap-balance&quot;&gt;CSS text-wrap: balance&lt;/a&gt;: &lt;p&gt;Allows multiple lines of text to have their lines broken in such a way that each line is roughly the same width, often used to make headlines more readable and visually appealing.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: CSS Relative colors</title>
+<link href="https://caniuse.com/css-relative-colors"></link>
+<id>urn:uuid:31d67a8a-d2ef-b2b3-e3f3-eb15c8616878</id>
+<updated>2023-05-01T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-relative-colors&quot;&gt;CSS Relative colors&lt;/a&gt;: &lt;p&gt;The CSS Relative Color syntax allows a color to be defined relative to another color using the &lt;code&gt;from&lt;/code&gt; keyword and optionally &lt;code&gt;calc()&lt;/code&gt; for any of the color values.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: CSS text-box-trim &amp; text-box-edge</title>
+<link href="https://caniuse.com/css-text-box-trim"></link>
+<id>urn:uuid:bf403eaf-29c7-44f7-5c18-1ba0694cba53</id>
+<updated>2023-03-08T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-text-box-trim&quot;&gt;CSS text-box-trim &amp; text-box-edge&lt;/a&gt;: &lt;p&gt;Provides the ability to remove the vertical space appearing above and below text glyphs, allowing more precise positioning and alignment.&lt;/p&gt;
+
+&lt;p&gt;Previously specified as the &lt;code&gt;leading-trim&lt;/code&gt; &amp;amp; &lt;code&gt;text-edge&lt;/code&gt; properties.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: CSS Container Style Queries</title>
+<link href="https://caniuse.com/css-container-queries-style"></link>
+<id>urn:uuid:decac509-cf9c-66db-8745-766bcd0de700</id>
+<updated>2023-02-25T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-container-queries-style&quot;&gt;CSS Container Style Queries&lt;/a&gt;: &lt;p&gt;Style queries in Container Queries provide a way to query the current styling of a container, and conditionally apply additional CSS to the contents of that container.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: ImageCapture API</title>
+<link href="https://caniuse.com/imagecapture"></link>
+<id>urn:uuid:a09c36ec-ea7e-197e-cadc-a7672fab8eff</id>
+<updated>2022-09-11T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/imagecapture&quot;&gt;ImageCapture API&lt;/a&gt;: &lt;p&gt;The Image Capture API provides access to the Video Camera for taking photos while configuring picture-specific settings such as e.g. zoom or auto focus metering area.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: WebCodecs API</title>
+<link href="https://caniuse.com/webcodecs"></link>
+<id>urn:uuid:f0ecca10-ae79-4e31-8f4e-d8a386257a0b</id>
+<updated>2022-09-04T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/webcodecs&quot;&gt;WebCodecs API&lt;/a&gt;: &lt;p&gt;API to provide more control over the encoding and decoding of audio, video, and images.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: WebTransport</title>
+<link href="https://caniuse.com/webtransport"></link>
+<id>urn:uuid:f6ec048e-0242-d6e3-bca7-98841409a44b</id>
+<updated>2022-08-14T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/webtransport&quot;&gt;WebTransport&lt;/a&gt;: &lt;p&gt;Protocol framework to send and receive data from servers using &lt;a href=&quot;/http3&quot;&gt;HTTP3&lt;/a&gt;. Similar to &lt;a href=&quot;/websockets&quot;&gt;WebSockets&lt;/a&gt; but with support for multiple streams, unidirectional streams, out-of-order delivery, and reliable as well as unreliable transport.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: Media Queries: Range Syntax</title>
+<link href="https://caniuse.com/css-media-range-syntax"></link>
+<id>urn:uuid:dae20ef4-0afd-3c67-147b-ebc2385873d4</id>
+<updated>2022-08-02T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-media-range-syntax&quot;&gt;Media Queries: Range Syntax&lt;/a&gt;: &lt;p&gt;Syntax improvements to make media queries using features that have a &quot;range&quot; type (like width or height) less verbose. Can be used with ordinary mathematical comparison operators: &lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;amp;lt;&lt;/code&gt;, &lt;code&gt;&amp;gt;=&lt;/code&gt;, or &lt;code&gt;&amp;amp;lt;=&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example: &lt;code&gt;@media (100px &amp;amp;lt;= width &amp;amp;lt;= 1900px)&lt;/code&gt; is the equivalent of &lt;code&gt;@media (min-width: 100px) and (max-width: 1900px)&lt;/code&gt;&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: CSS Container Query Units</title>
+<link href="https://caniuse.com/css-container-query-units"></link>
+<id>urn:uuid:5c20ced2-0049-bb80-193c-10bd3890105a</id>
+<updated>2022-06-14T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-container-query-units&quot;&gt;CSS Container Query Units&lt;/a&gt;: &lt;p&gt;Container Query Units specify a length relative to the dimensions of a query container. The units include: &lt;code&gt;cqw&lt;/code&gt;, &lt;code&gt;cqh&lt;/code&gt;, &lt;code&gt;cqi&lt;/code&gt;, &lt;code&gt;cqb&lt;/code&gt;, &lt;code&gt;cqmin&lt;/code&gt;, and &lt;code&gt;cqmax&lt;/code&gt;.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: Declarative Shadow DOM</title>
+<link href="https://caniuse.com/declarative-shadow-dom"></link>
+<id>urn:uuid:205838d9-536d-cfe2-b040-d6d6e887b066</id>
+<updated>2022-05-21T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/declarative-shadow-dom&quot;&gt;Declarative Shadow DOM&lt;/a&gt;: &lt;p&gt;Proposal to allow rendering elements with shadow dom (aka web components) using server-side rendering.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: CSS font-palette</title>
+<link href="https://caniuse.com/css-font-palette"></link>
+<id>urn:uuid:1b338ce0-a26f-1c44-6123-8e0a1ab1313d</id>
+<updated>2022-03-18T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-font-palette&quot;&gt;CSS font-palette&lt;/a&gt;: &lt;p&gt;The font-palette CSS property allows selecting a palette from a color font. In combination with the &lt;code&gt;@font-palette-values&lt;/code&gt; at-rule, custom palettes can be defined.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: COLR/CPAL(v1) Font Formats</title>
+<link href="https://caniuse.com/colr-v1"></link>
+<id>urn:uuid:fd1c9dd4-d9bc-a7c2-74dc-858f78b146d2</id>
+<updated>2022-01-29T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/colr-v1&quot;&gt;COLR/CPAL(v1) Font Formats&lt;/a&gt;: &lt;p&gt;COLRv1 is an improved version of COLRv0, this is also part of the OpenType specification. COLRv1 supports additional graphic capabilities. In addition to solid colors, gradient fills can be used, as well as more complex fills using other graphic operations, including affine transformations and various blending modes.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: CSS @when / @else conditional rules</title>
+<link href="https://caniuse.com/css-when-else"></link>
+<id>urn:uuid:79626c98-115b-1b02-65e5-c812728dc701</id>
+<updated>2022-01-07T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-when-else&quot;&gt;CSS @when / @else conditional rules&lt;/a&gt;: &lt;p&gt;Syntax allowing CSS conditions (like media and support queries) to be written more simply, as well as making it possible to write mutually exclusive rules using &lt;code&gt;@else&lt;/code&gt; statements.&lt;/p&gt;
+</content>
+</entry>
+<entry>
+<title>New feature: LCH and Lab color values</title>
+<link href="https://caniuse.com/css-lch-lab"></link>
+<id>urn:uuid:35cd207b-2674-ed29-edb5-d52d7562a48e</id>
+<updated>2021-10-30T00:00:00+00:00</updated>
+<content type="html">&lt;a href=&quot;https://caniuse.com/css-lch-lab&quot;&gt;LCH and Lab color values&lt;/a&gt;: &lt;p&gt;The &lt;code&gt;lch()&lt;/code&gt; and &lt;code&gt;lab()&lt;/code&gt; color functions are based on the CIE LAB color space, representing colors in a way that closely matches human perception and provides access to a wider spectrum of colors than offered by the usual RGB color space.&lt;/p&gt;
+</content>
+</entry>
+</feed>

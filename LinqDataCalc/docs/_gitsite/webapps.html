@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Scripts Section -->
+<!--<script src="./_meta.js"></script>-->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- CSS Section, Title Section -->
+<link href="./styles/tblmain.css" rel="stylesheet" />
+<link href="./styles/navmain.css" rel="stylesheet" />
+<!--<link href="./styles/sidepanel_info.css" rel="stylesheet" />-->
+
+<title>About</title>
+
+</head>
+
+<body>
+<!--Navigation bar section start-->
+<nav class="fixed-nav-bar">
+  <a class="brand">
+   <img src="./icons8-package-64_2nd.png"/>
+  </a>
+
+<!-- MAIN PART OF NAV. BAR -->
+  <a class="brand">
+   <img  id="mainTitle" src="./projects_logo2.PNG"/>
+  </a>
+  <a class="link" href="#">about</a>
+  <a class="link" href="#">hosted packages</a>
+  <a class="link" href="#">hosted webapps</a>
+</nav>
+<!--Navigation bar section end-->
+
+<div class="container">
+<br/>
+<br/>
+  <h2>About</h2>
+<center style="font-size:1.2rem;margin-top:1%">
+Welcome to the main projects page.<br/>
+Currently hosting <b><i>2</i></b> packages on nuget.org and 
+<b><i>1</i></b> web3 application on vercel.
+<br/>
+<b>Note:</b> This website is just a landing site for my projects listing. Read more about this <a href="https://github.com/chrdek/chrdek.github.io#readme">here</a>
+</center>
+</div>
+<div class="aboutcont"></div>
+<!-- Footer section start -->
+<nav class="fixed-nav-footer">
+ <span>
+ <strong>
+<a href="https://www.github.com/chrdek">
+  /chrdek/ on GitHub
+</a>
+ </strong>
+ </span>
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+<div id="loadpage">
+ <!--dynamic page content -->
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+<div id="loadpage2">
+ <!--dynamic page content sect 2-->
+</div>
+
+<!-- Footer section end -->
+</nav>
+<script>
+  if (window.location.hash.length > 1) {
+      const path = window.location.hash.replace('#', '')
+      history.pushState({ page: 1 }, "About", '/about' + path)
+
+      document.getElementsByTagName('h2')[0].innerHTML = document.getElementsByTagName('title')[0].innerHTML.replace('{PAGETITLE}', path)
+    }
+
+
+//General usage page stats - footer section.
+var visibleloadingTime = `Page loaded in: ${parseFloat(`${!(window.performance.timing.domContentLoadedEventEnd-window.performance.timing.navigationStart)*.0000001}`).toFixed(4)} secs`;
+
+var footerInfo = document.querySelector("#loadpage");
+footerInfo.innerHTML = `<small><strong>${visibleloadingTime}</strong></small>`;
+
+var footerInfo2 = document.querySelector("#loadpage2");
+var dataloadingTime = `Data fetched in: ${parseFloat(0).toFixed(4)} secs`;
+footerInfo2.innerHTML = `<small><strong>${dataloadingTime}</strong></small>`;
+
+</script>
+
+
+</html>

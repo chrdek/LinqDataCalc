@@ -1,0 +1,167 @@
+body {
+  font-family: 'lato', sans-serif; /*font-family: 'Electrolize', sans-serif;*/
+  background: 
+  -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%),
+ -webkit-linear-gradient(45deg, rgba(120, 155, 255, 0.9) 45%, rgba(55, 230, 235, 1) 0%);
+  background-color: #F8F9FD; /* Ghost White */
+}
+
+
+.grayeffect {
+/*background-color: #66668a;*/
+  background: 
+  -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%),
+ -webkit-linear-gradient(45deg, rgba(120, 155, 255, 0.9) 45%, rgba(55, 230, 235, 1) 0%);
+  background-color: #F8F9FD;
+opacity: 0.9;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #66668a 4px ), repeating-linear-gradient( #56565f55, #56565f );
+background-position: center;
+background-size: cover;
+}
+
+
+#text{
+  font-size:39px;
+  font-family:"fjalla one";
+  margin-bottom:0;
+  overflow:none; /*auto*/
+  margin-top:4;
+  height:100px;
+  width:95%;
+  font-weight:600;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+}
+h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table li {
+  border-radius: 8px;
+  padding: 55px 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+  opacity:0.78;
+}
+.responsive-table .table-header {
+  background-color: lightgray; /* #95A5A6; silver; */
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15);
+  opacity:0.78;
+}
+.responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15);
+}
+.responsive-table .col-1 {
+  flex-basis: 16.666%;
+}
+.responsive-table .col-2 {
+  flex-basis: 16.666%;
+}
+.responsive-table .col-3 {
+  flex-basis: 16.666%;
+}
+.responsive-table .col-4 {
+  flex-basis: 16.666%;
+}
+.responsive-table .col-5 {
+  flex-basis: 16.666%;
+}
+.responsive-table .col-6 {
+  flex-basis: 16.666%;
+}
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+
+
+/*Title hidden when on smaller devices */
+@media(max-width: 767px) {
+
+img#mainTitle{
+padding:0;
+display:none;
+ }
+}
+
+
+/* Main table documentation status section */
+  div.col.col-6.status span {
+    position: relative;
+    border-radius: 30px;
+    padding: 4px 10px 4px 25px; }
+
+  div.col.col-6.status span::after {
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      width: 10px;
+      height: 10px;
+      content: '';
+      border-radius: 50%;
+     transition: all 0.2s; }
+  div.col.col-6.status span.active {
+    background: #cff6dd;
+    color: #1fa750; }
+
+  div.col.col-6.status span.active::after {
+    animation: blinking 1s infinite;
+    background: #23bd5a;
+    background-color: #00FF00;
+      /*background: #23bd5a;*/ }
+
+  div.col.col-6.status span.waiting {
+    background: #ff7765;
+    color: #de0000; }
+
+  div.col.col-6 span.waiting::after {
+    background: #ffa191; }
+
+
+@-webkit-keyframes blinking {
+  50%   {
+    transform: scale(1.2);
+    opacity: 0.9;
+    background-color:#1fa750;
+  }
+  100%   {
+    transform: scale(1.2);
+    opacity: 0.9;
+    background-color:#1fa750;
+  }
+}

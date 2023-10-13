@@ -1,0 +1,10 @@
+queries:
+  - include:           
+      tags:
+        - "security"
+        - "correctness"           
+      severity: "error"
+extraction:
+  csharp:
+    index:
+      buildless: true
