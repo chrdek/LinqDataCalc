@@ -27,6 +27,8 @@ Additional randomization and Set-Based selections techniques are also included a
 <br/>
 <br/>
 
+UPDATE: Added extended functionality for diffing, distance calculation algorithms and tree structures creation.
+
 Package also installable from [online nuget source.](https://www.nuget.org/packages/LinqDataCalc/)
 
 <br/>

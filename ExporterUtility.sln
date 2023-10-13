@@ -4,14 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66992749-567D-4B84-AE92-405A23FD1879}"
-	ProjectSection(SolutionItems) = preProject
-		.nuspec = .nuspec
-		nuget.exe = nuget.exe
-		statistics.ico = statistics.ico
-		statistics.png = statistics.png
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDataCalc", "LinqDataCalc\LinqDataCalc.csproj", "{6B6A555A-FE33-4517-9BCE-0B9A58815409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDataCalc", "LinqDataCalc\LinqDataCalc.csproj", "{6B6A555A-FE33-4517-9BCE-0B9A58815409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

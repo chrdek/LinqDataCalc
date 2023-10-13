@@ -1,5 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- Xcopy  usage for packaging , using  ..\NuGet\ as default dir -->
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="
+          if $(ConfigurationName) == Debug (
+      nuget pack .\$(ProjectName).nuspec
+      xcopy .\$(PackageId).1.0.3.1.nupkg $(SolutionDir)NuGet\ /C /Y
+      docfx metadata ./docfx.json
+      docfx build ./docfx.json
+      docfx serve --port 8099
+      )else ( cmd /c echo *****NOTE: Need to run only on Debug, Switch from Release to Debug***** )" />
+  </Target>
+  
+  <ItemGroup>
+    <Reference Include="System.ValueTuple">
+      <HintPath>bin\Debug\System.ValueTuple.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\AssemblyInfo.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+</Project>
+
+<!-- <?xml version="1.0" encoding="utf-8"?
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -57,8 +92,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LinqDataCalc.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <AdditionalFiles Include="LinqDataCalc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-</Project>
+</Project>-->
