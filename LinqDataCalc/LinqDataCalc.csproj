@@ -11,9 +11,9 @@
   <!-- Xcopy  usage for packaging , using  ..\NuGet\ as default dir -->
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="
-          if $(ConfigurationName) == Debug (
+      if $(ConfigurationName) == Debug (
       nuget pack .\$(ProjectName).nuspec
-      xcopy .\$(PackageId).1.0.3.1.nupkg $(SolutionDir)NuGet\ /C /Y
+      xcopy .\$(PackageId).1.0.3.21.nupkg $(SolutionDir)NuGet\ /C /Y
       docfx metadata ./docfx.json
       docfx build ./docfx.json
       )else ( cmd /c echo *****NOTE: Need to run only on Debug, Switch from Release to Debug***** )" />
