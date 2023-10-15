@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <!-- Xcopy  usage for packaging , using  ..\NuGet\ as default dir -->
+  <!-- PostBuilds disabled temporarily on review
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="
       if $(ConfigurationName) == Debug (
@@ -17,7 +18,7 @@
       docfx metadata ./docfx.json
       docfx build ./docfx.json
       )else ( cmd /c echo *****NOTE: Need to run only on Debug, Switch from Release to Debug***** )" />
-  </Target>
+  </Target>-->
   
   <ItemGroup>
     <Reference Include="System.ValueTuple">
