@@ -6,7 +6,11 @@ nuget.config
 *.ico
 /obj
 /lib
+/LinqDataCalc/styles/*
+/LinqDataCalc/docs/*
+/LinqDataCalc/public/*
 /obj/
+/docs/
 /bin/Release
 /lib/
 /Releases/
