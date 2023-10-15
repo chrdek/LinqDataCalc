@@ -10,10 +10,15 @@ nuget.config
 *.config
 *.bat
 *.old
+*.css
+*.js
 /obj
 /docs
+*LinqDataCalc/public/*.css
+*LinqDataCalc/public/*.js
+*LinqDataCalc/styles/*.css
+/styles/
 /public/
-/styles
 /NuGet/
 /lib
 /obj/
