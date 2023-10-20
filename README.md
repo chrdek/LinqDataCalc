@@ -30,7 +30,18 @@ Additional randomization and Set-Based selections techniques are also included a
 
 UPDATE: Added extended functionality for diffing, distance calculation algorithms and tree structures creation.
 
-Package also installable from [online nuget source.](https://www.nuget.org/packages/LinqDataCalc/)
+<br/>
+
+General usage/setup:
+
+- On nupkg install from nuget package man. VS add relevant reference.
+- Reference in-code: 
+```C#
+using static LinqDataCalc.LinqDataCalcExtensions;
+```
+- Further usage, instructions on official [online documentation.](https://chrdek.github.io/docs/LinqDataCalc.html)
+
+Package installable from [online nuget source.](https://www.nuget.org/packages/LinqDataCalc/)
 
 <br/>
 
