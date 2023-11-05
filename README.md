@@ -6,6 +6,7 @@
 | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=chrdek_LinqDataCalc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=chrdek_LinqDataCalc) |
 | [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=chrdek_LinqDataCalc&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=chrdek_LinqDataCalc) |
 | ![Nuget](https://img.shields.io/nuget/dt/LinqDataCalc?logo=nuget) |
+| [🌐 Global Status](https://status.nuget.org/) |
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
