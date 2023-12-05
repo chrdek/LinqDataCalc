@@ -1,0 +1,74 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/standarduser/Source/Repos/LinqDataCalc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/LinqDataCalc.LinqDataCalcExtensions.AlgoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/LinqDataCalc.LinqDataCalcExtensions.AlgoType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/LinqDataCalc.LinqDataCalcExtensions.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/LinqDataCalc.LinqDataCalcExtensions.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/LinqDataCalc.LinqDataCalcExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/LinqDataCalc.LinqDataCalcExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/LinqDataCalc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/LinqDataCalc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

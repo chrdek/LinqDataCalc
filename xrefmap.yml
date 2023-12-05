@@ -1,0 +1,859 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: LinqDataCalc
+  name: LinqDataCalc
+  href: docs/LinqDataCalc.html
+  commentId: N:LinqDataCalc
+  fullName: LinqDataCalc
+  nameWithType: LinqDataCalc
+- uid: LinqDataCalc.LinqDataCalcExtensions
+  name: LinqDataCalcExtensions
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html
+  commentId: T:LinqDataCalc.LinqDataCalcExtensions
+  fullName: LinqDataCalc.LinqDataCalcExtensions
+  nameWithType: LinqDataCalcExtensions
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  name: LinqDataCalcExtensions.AlgoType
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.AlgoType.html
+  commentId: T:LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType
+  nameWithType: LinqDataCalcExtensions.AlgoType
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistLoop
+  name: DistLoop
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.AlgoType.html#LinqDataCalc_LinqDataCalcExtensions_AlgoType_DistLoop
+  commentId: F:LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistLoop
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistLoop
+  nameWithType: LinqDataCalcExtensions.AlgoType.DistLoop
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR1
+  name: DistXOR1
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.AlgoType.html#LinqDataCalc_LinqDataCalcExtensions_AlgoType_DistXOR1
+  commentId: F:LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR1
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR1
+  nameWithType: LinqDataCalcExtensions.AlgoType.DistXOR1
+- uid: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR2
+  name: DistXOR2
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.AlgoType.html#LinqDataCalc_LinqDataCalcExtensions_AlgoType_DistXOR2
+  commentId: F:LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR2
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AlgoType.DistXOR2
+  nameWithType: LinqDataCalcExtensions.AlgoType.DistXOR2
+- uid: LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples(System.Collections.Generic.IEnumerable{System.Object})
+  name: AsNumberTuples(IEnumerable<object>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_AsNumberTuples_System_Collections_Generic_IEnumerable_System_Object__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples(System.Collections.Generic.IEnumerable{System.Object})
+  name.vb: AsNumberTuples(IEnumerable(Of Object))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples(System.Collections.Generic.IEnumerable<object>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples(System.Collections.Generic.IEnumerable(Of Object))
+  nameWithType: LinqDataCalcExtensions.AsNumberTuples(IEnumerable<object>)
+  nameWithType.vb: LinqDataCalcExtensions.AsNumberTuples(IEnumerable(Of Object))
+- uid: LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples*
+  name: AsNumberTuples
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_AsNumberTuples_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.AsNumberTuples
+  nameWithType: LinqDataCalcExtensions.AsNumberTuples
+- uid: LinqDataCalc.LinqDataCalcExtensions.BTreeGen(System.Double,System.Int32)
+  name: BTreeGen(double, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_BTreeGen_System_Double_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.BTreeGen(System.Double,System.Int32)
+  name.vb: BTreeGen(Double, Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.BTreeGen(double, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.BTreeGen(Double, Integer)
+  nameWithType: LinqDataCalcExtensions.BTreeGen(double, int)
+  nameWithType.vb: LinqDataCalcExtensions.BTreeGen(Double, Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.BTreeGen*
+  name: BTreeGen
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_BTreeGen_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.BTreeGen
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.BTreeGen
+  nameWithType: LinqDataCalcExtensions.BTreeGen
+- uid: LinqDataCalc.LinqDataCalcExtensions.BTreeGen2(System.Int32,System.Double)
+  name: BTreeGen2(int, double)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_BTreeGen2_System_Int32_System_Double_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.BTreeGen2(System.Int32,System.Double)
+  name.vb: BTreeGen2(Integer, Double)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.BTreeGen2(int, double)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.BTreeGen2(Integer, Double)
+  nameWithType: LinqDataCalcExtensions.BTreeGen2(int, double)
+  nameWithType.vb: LinqDataCalcExtensions.BTreeGen2(Integer, Double)
+- uid: LinqDataCalc.LinqDataCalcExtensions.BTreeGen2*
+  name: BTreeGen2
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_BTreeGen2_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.BTreeGen2
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.BTreeGen2
+  nameWithType: LinqDataCalcExtensions.BTreeGen2
+- uid: LinqDataCalc.LinqDataCalcExtensions.BTreeHeight(LinqDataCalc.LinqDataCalcExtensions.Node)
+  name: BTreeHeight(Node)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_BTreeHeight_LinqDataCalc_LinqDataCalcExtensions_Node_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.BTreeHeight(LinqDataCalc.LinqDataCalcExtensions.Node)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.BTreeHeight(LinqDataCalc.LinqDataCalcExtensions.Node)
+  nameWithType: LinqDataCalcExtensions.BTreeHeight(LinqDataCalcExtensions.Node)
+- uid: LinqDataCalc.LinqDataCalcExtensions.BTreeHeight*
+  name: BTreeHeight
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_BTreeHeight_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.BTreeHeight
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.BTreeHeight
+  nameWithType: LinqDataCalcExtensions.BTreeHeight
+- uid: LinqDataCalc.LinqDataCalcExtensions.ChunkOf*
+  name: ChunkOf
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ChunkOf_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ChunkOf
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ChunkOf
+  nameWithType: LinqDataCalcExtensions.ChunkOf
+- uid: LinqDataCalc.LinqDataCalcExtensions.ChunkOf``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: ChunkOf<T>(IEnumerable<T>, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ChunkOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ChunkOf``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: ChunkOf(Of T)(IEnumerable(Of T), Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ChunkOf<T>(System.Collections.Generic.IEnumerable<T>, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ChunkOf(Of T)(System.Collections.Generic.IEnumerable(Of T), Integer)
+  nameWithType: LinqDataCalcExtensions.ChunkOf<T>(IEnumerable<T>, int)
+  nameWithType.vb: LinqDataCalcExtensions.ChunkOf(Of T)(IEnumerable(Of T), Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.CompareBytes(System.Byte[],System.Byte[])
+  name: CompareBytes(byte[], byte[])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_CompareBytes_System_Byte___System_Byte___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.CompareBytes(System.Byte[],System.Byte[])
+  name.vb: CompareBytes(Byte(), Byte())
+  fullName: LinqDataCalc.LinqDataCalcExtensions.CompareBytes(byte[], byte[])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.CompareBytes(Byte(), Byte())
+  nameWithType: LinqDataCalcExtensions.CompareBytes(byte[], byte[])
+  nameWithType.vb: LinqDataCalcExtensions.CompareBytes(Byte(), Byte())
+- uid: LinqDataCalc.LinqDataCalcExtensions.CompareBytes*
+  name: CompareBytes
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_CompareBytes_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.CompareBytes
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.CompareBytes
+  nameWithType: LinqDataCalcExtensions.CompareBytes
+- uid: LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Int32,System.Int32}},System.Int32)
+  name: DictionaryRndFill(Dictionary<string, Tuple<int, int>>, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_DictionaryRndFill_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Int32_System_Int32___System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Int32,System.Int32}},System.Int32)
+  name.vb: DictionaryRndFill(Dictionary(Of String, Tuple(Of Integer, Integer)), Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill(System.Collections.Generic.Dictionary<string, System.Tuple<int, int>>, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of Integer, Integer)), Integer)
+  nameWithType: LinqDataCalcExtensions.DictionaryRndFill(Dictionary<string, Tuple<int, int>>, int)
+  nameWithType.vb: LinqDataCalcExtensions.DictionaryRndFill(Dictionary(Of String, Tuple(Of Integer, Integer)), Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill*
+  name: DictionaryRndFill
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_DictionaryRndFill_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.DictionaryRndFill
+  nameWithType: LinqDataCalcExtensions.DictionaryRndFill
+- uid: LinqDataCalc.LinqDataCalcExtensions.DiffBytes(System.Byte[],System.Byte[])
+  name: DiffBytes(byte[], byte[])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_DiffBytes_System_Byte___System_Byte___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.DiffBytes(System.Byte[],System.Byte[])
+  name.vb: DiffBytes(Byte(), Byte())
+  fullName: LinqDataCalc.LinqDataCalcExtensions.DiffBytes(byte[], byte[])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.DiffBytes(Byte(), Byte())
+  nameWithType: LinqDataCalcExtensions.DiffBytes(byte[], byte[])
+  nameWithType.vb: LinqDataCalcExtensions.DiffBytes(Byte(), Byte())
+- uid: LinqDataCalc.LinqDataCalcExtensions.DiffBytes*
+  name: DiffBytes
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_DiffBytes_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.DiffBytes
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.DiffBytes
+  nameWithType: LinqDataCalcExtensions.DiffBytes
+- uid: LinqDataCalc.LinqDataCalcExtensions.ExpectedValue(System.Collections.Generic.IEnumerable{System.Double},System.Collections.Generic.IEnumerable{System.Double})
+  name: ExpectedValue(IEnumerable<double>, IEnumerable<double>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ExpectedValue_System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ExpectedValue(System.Collections.Generic.IEnumerable{System.Double},System.Collections.Generic.IEnumerable{System.Double})
+  name.vb: ExpectedValue(IEnumerable(Of Double), IEnumerable(Of Double))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ExpectedValue(System.Collections.Generic.IEnumerable<double>, System.Collections.Generic.IEnumerable<double>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ExpectedValue(System.Collections.Generic.IEnumerable(Of Double), System.Collections.Generic.IEnumerable(Of Double))
+  nameWithType: LinqDataCalcExtensions.ExpectedValue(IEnumerable<double>, IEnumerable<double>)
+  nameWithType.vb: LinqDataCalcExtensions.ExpectedValue(IEnumerable(Of Double), IEnumerable(Of Double))
+- uid: LinqDataCalc.LinqDataCalcExtensions.ExpectedValue*
+  name: ExpectedValue
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ExpectedValue_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ExpectedValue
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ExpectedValue
+  nameWithType: LinqDataCalcExtensions.ExpectedValue
+- uid: LinqDataCalc.LinqDataCalcExtensions.Factorial(System.Collections.Generic.IEnumerable{System.Int32})
+  name: Factorial(IEnumerable<int>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_Factorial_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.Factorial(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: Factorial(IEnumerable(Of Integer))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Factorial(System.Collections.Generic.IEnumerable<int>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.Factorial(System.Collections.Generic.IEnumerable(Of Integer))
+  nameWithType: LinqDataCalcExtensions.Factorial(IEnumerable<int>)
+  nameWithType.vb: LinqDataCalcExtensions.Factorial(IEnumerable(Of Integer))
+- uid: LinqDataCalc.LinqDataCalcExtensions.Factorial*
+  name: Factorial
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_Factorial_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.Factorial
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Factorial
+  nameWithType: LinqDataCalcExtensions.Factorial
+- uid: LinqDataCalc.LinqDataCalcExtensions.FiboSeq(System.Int32)
+  name: FiboSeq(int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_FiboSeq_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.FiboSeq(System.Int32)
+  name.vb: FiboSeq(Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.FiboSeq(int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.FiboSeq(Integer)
+  nameWithType: LinqDataCalcExtensions.FiboSeq(int)
+  nameWithType.vb: LinqDataCalcExtensions.FiboSeq(Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.FiboSeq*
+  name: FiboSeq
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_FiboSeq_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.FiboSeq
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.FiboSeq
+  nameWithType: LinqDataCalcExtensions.FiboSeq
+- uid: LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator(System.Int32)
+  name: FiboSeqGenerator(int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_FiboSeqGenerator_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator(System.Int32)
+  name.vb: FiboSeqGenerator(Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator(int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator(Integer)
+  nameWithType: LinqDataCalcExtensions.FiboSeqGenerator(int)
+  nameWithType.vb: LinqDataCalcExtensions.FiboSeqGenerator(Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator*
+  name: FiboSeqGenerator
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_FiboSeqGenerator_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.FiboSeqGenerator
+  nameWithType: LinqDataCalcExtensions.FiboSeqGenerator
+- uid: LinqDataCalc.LinqDataCalcExtensions.GetRandomElements*
+  name: GetRandomElements
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_GetRandomElements_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.GetRandomElements
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.GetRandomElements
+  nameWithType: LinqDataCalcExtensions.GetRandomElements
+- uid: LinqDataCalc.LinqDataCalcExtensions.GetRandomElements``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: GetRandomElements<T>(IEnumerable<T>, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_GetRandomElements__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.GetRandomElements``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: GetRandomElements(Of T)(IEnumerable(Of T), Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.GetRandomElements<T>(System.Collections.Generic.IEnumerable<T>, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.GetRandomElements(Of T)(System.Collections.Generic.IEnumerable(Of T), Integer)
+  nameWithType: LinqDataCalcExtensions.GetRandomElements<T>(IEnumerable<T>, int)
+  nameWithType.vb: LinqDataCalcExtensions.GetRandomElements(Of T)(IEnumerable(Of T), Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.HammingDist(System.String,System.String)
+  name: HammingDist(string, string)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HammingDist_System_String_System_String_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.HammingDist(System.String,System.String)
+  name.vb: HammingDist(String, String)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HammingDist(string, string)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.HammingDist(String, String)
+  nameWithType: LinqDataCalcExtensions.HammingDist(string, string)
+  nameWithType.vb: LinqDataCalcExtensions.HammingDist(String, String)
+- uid: LinqDataCalc.LinqDataCalcExtensions.HammingDist*
+  name: HammingDist
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HammingDist_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.HammingDist
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HammingDist
+  nameWithType: LinqDataCalcExtensions.HammingDist
+- uid: LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo(System.Int32,System.Int32,LinqDataCalc.LinqDataCalcExtensions.AlgoType)
+  name: HammingDistAlgo(int, int, AlgoType)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HammingDistAlgo_System_Int32_System_Int32_LinqDataCalc_LinqDataCalcExtensions_AlgoType_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo(System.Int32,System.Int32,LinqDataCalc.LinqDataCalcExtensions.AlgoType)
+  name.vb: HammingDistAlgo(Integer, Integer, AlgoType)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo(int, int, LinqDataCalc.LinqDataCalcExtensions.AlgoType)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo(Integer, Integer, LinqDataCalc.LinqDataCalcExtensions.AlgoType)
+  nameWithType: LinqDataCalcExtensions.HammingDistAlgo(int, int, LinqDataCalcExtensions.AlgoType)
+  nameWithType.vb: LinqDataCalcExtensions.HammingDistAlgo(Integer, Integer, LinqDataCalcExtensions.AlgoType)
+- uid: LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo*
+  name: HammingDistAlgo
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HammingDistAlgo_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HammingDistAlgo
+  nameWithType: LinqDataCalcExtensions.HammingDistAlgo
+- uid: LinqDataCalc.LinqDataCalcExtensions.HammingWeight(System.UInt32)
+  name: HammingWeight(uint)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HammingWeight_System_UInt32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.HammingWeight(System.UInt32)
+  name.vb: HammingWeight(UInteger)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HammingWeight(uint)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.HammingWeight(UInteger)
+  nameWithType: LinqDataCalcExtensions.HammingWeight(uint)
+  nameWithType.vb: LinqDataCalcExtensions.HammingWeight(UInteger)
+- uid: LinqDataCalc.LinqDataCalcExtensions.HammingWeight(System.UInt64)
+  name: HammingWeight(ulong)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HammingWeight_System_UInt64_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.HammingWeight(System.UInt64)
+  name.vb: HammingWeight(ULong)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HammingWeight(ulong)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.HammingWeight(ULong)
+  nameWithType: LinqDataCalcExtensions.HammingWeight(ulong)
+  nameWithType.vb: LinqDataCalcExtensions.HammingWeight(ULong)
+- uid: LinqDataCalc.LinqDataCalcExtensions.HammingWeight*
+  name: HammingWeight
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HammingWeight_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.HammingWeight
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HammingWeight
+  nameWithType: LinqDataCalcExtensions.HammingWeight
+- uid: LinqDataCalc.LinqDataCalcExtensions.HappySeq(System.Int32)
+  name: HappySeq(int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HappySeq_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.HappySeq(System.Int32)
+  name.vb: HappySeq(Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HappySeq(int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.HappySeq(Integer)
+  nameWithType: LinqDataCalcExtensions.HappySeq(int)
+  nameWithType.vb: LinqDataCalcExtensions.HappySeq(Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.HappySeq*
+  name: HappySeq
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_HappySeq_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.HappySeq
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.HappySeq
+  nameWithType: LinqDataCalcExtensions.HappySeq
+- uid: LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill(System.Collections.Generic.IEnumerable{System.Int32},System.Object)
+  name: IEnumRndFill(IEnumerable<int>, object)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_IEnumRndFill_System_Collections_Generic_IEnumerable_System_Int32__System_Object_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill(System.Collections.Generic.IEnumerable{System.Int32},System.Object)
+  name.vb: IEnumRndFill(IEnumerable(Of Integer), Object)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill(System.Collections.Generic.IEnumerable<int>, object)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill(System.Collections.Generic.IEnumerable(Of Integer), Object)
+  nameWithType: LinqDataCalcExtensions.IEnumRndFill(IEnumerable<int>, object)
+  nameWithType.vb: LinqDataCalcExtensions.IEnumRndFill(IEnumerable(Of Integer), Object)
+- uid: LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill*
+  name: IEnumRndFill
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_IEnumRndFill_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.IEnumRndFill
+  nameWithType: LinqDataCalcExtensions.IEnumRndFill
+- uid: LinqDataCalc.LinqDataCalcExtensions.IterateAt*
+  name: IterateAt
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_IterateAt_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.IterateAt
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.IterateAt
+  nameWithType: LinqDataCalcExtensions.IterateAt
+- uid: LinqDataCalc.LinqDataCalcExtensions.IterateAt``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: IterateAt<T>(IEnumerable<T>, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_IterateAt__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.IterateAt``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: IterateAt(Of T)(IEnumerable(Of T), Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.IterateAt<T>(System.Collections.Generic.IEnumerable<T>, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.IterateAt(Of T)(System.Collections.Generic.IEnumerable(Of T), Integer)
+  nameWithType: LinqDataCalcExtensions.IterateAt<T>(IEnumerable<T>, int)
+  nameWithType.vb: LinqDataCalcExtensions.IterateAt(Of T)(IEnumerable(Of T), Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf(System.String)
+  name: LetterCombinationsOf(string)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LetterCombinationsOf_System_String_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf(System.String)
+  name.vb: LetterCombinationsOf(String)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf(string)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf(String)
+  nameWithType: LinqDataCalcExtensions.LetterCombinationsOf(string)
+  nameWithType.vb: LinqDataCalcExtensions.LetterCombinationsOf(String)
+- uid: LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf*
+  name: LetterCombinationsOf
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LetterCombinationsOf_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LetterCombinationsOf
+  nameWithType: LinqDataCalcExtensions.LetterCombinationsOf
+- uid: LinqDataCalc.LinqDataCalcExtensions.LevnDist(System.String,System.String)
+  name: LevnDist(string, string)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LevnDist_System_String_System_String_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.LevnDist(System.String,System.String)
+  name.vb: LevnDist(String, String)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LevnDist(string, string)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.LevnDist(String, String)
+  nameWithType: LinqDataCalcExtensions.LevnDist(string, string)
+  nameWithType.vb: LinqDataCalcExtensions.LevnDist(String, String)
+- uid: LinqDataCalc.LinqDataCalcExtensions.LevnDist*
+  name: LevnDist
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LevnDist_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.LevnDist
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LevnDist
+  nameWithType: LinqDataCalcExtensions.LevnDist
+- uid: LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix(System.String,System.String)
+  name: LevnDistEditMatrix(string, string)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LevnDistEditMatrix_System_String_System_String_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix(System.String,System.String)
+  name.vb: LevnDistEditMatrix(String, String)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix(string, string)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix(String, String)
+  nameWithType: LinqDataCalcExtensions.LevnDistEditMatrix(string, string)
+  nameWithType.vb: LinqDataCalcExtensions.LevnDistEditMatrix(String, String)
+- uid: LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix*
+  name: LevnDistEditMatrix
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LevnDistEditMatrix_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LevnDistEditMatrix
+  nameWithType: LinqDataCalcExtensions.LevnDistEditMatrix
+- uid: LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur(System.String,System.String,System.Int32[0:,0:])
+  name: LevnDistRecur(string, string, int[,])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LevnDistRecur_System_String_System_String_System_Int32_0__0___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur(System.String,System.String,System.Int32[0:,0:])
+  name.vb: LevnDistRecur(String, String, Integer(,))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur(string, string, int[,])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur(String, String, Integer(,))
+  nameWithType: LinqDataCalcExtensions.LevnDistRecur(string, string, int[,])
+  nameWithType.vb: LinqDataCalcExtensions.LevnDistRecur(String, String, Integer(,))
+- uid: LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur*
+  name: LevnDistRecur
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_LevnDistRecur_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.LevnDistRecur
+  nameWithType: LinqDataCalcExtensions.LevnDistRecur
+- uid: LinqDataCalc.LinqDataCalcExtensions.MatrixProduct(System.Int32[0:,0:],System.Int32[0:,0:])
+  name: MatrixProduct(int[,], int[,])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MatrixProduct_System_Int32_0__0___System_Int32_0__0___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MatrixProduct(System.Int32[0:,0:],System.Int32[0:,0:])
+  name.vb: MatrixProduct(Integer(,), Integer(,))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MatrixProduct(int[,], int[,])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MatrixProduct(Integer(,), Integer(,))
+  nameWithType: LinqDataCalcExtensions.MatrixProduct(int[,], int[,])
+  nameWithType.vb: LinqDataCalcExtensions.MatrixProduct(Integer(,), Integer(,))
+- uid: LinqDataCalc.LinqDataCalcExtensions.MatrixProduct*
+  name: MatrixProduct
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MatrixProduct_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.MatrixProduct
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MatrixProduct
+  nameWithType: LinqDataCalcExtensions.MatrixProduct
+- uid: LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2(System.Int32[0:,0:],System.Int32[0:,0:],System.Int32)
+  name: MatrixProductv2(int[,], int[,], int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MatrixProductv2_System_Int32_0__0___System_Int32_0__0___System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2(System.Int32[0:,0:],System.Int32[0:,0:],System.Int32)
+  name.vb: MatrixProductv2(Integer(,), Integer(,), Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2(int[,], int[,], int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2(Integer(,), Integer(,), Integer)
+  nameWithType: LinqDataCalcExtensions.MatrixProductv2(int[,], int[,], int)
+  nameWithType.vb: LinqDataCalcExtensions.MatrixProductv2(Integer(,), Integer(,), Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2*
+  name: MatrixProductv2
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MatrixProductv2_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MatrixProductv2
+  nameWithType: LinqDataCalcExtensions.MatrixProductv2
+- uid: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose*
+  name: MatrixTranspose
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MatrixTranspose_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose
+  nameWithType: LinqDataCalcExtensions.MatrixTranspose
+- uid: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose``1(``0[0:,0:])
+  name: MatrixTranspose<T>(T[,])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MatrixTranspose__1___0_0__0___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose``1(``0[0:,0:])
+  name.vb: MatrixTranspose(Of T)(T(,))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose<T>(T[,])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose(Of T)(T(,))
+  nameWithType: LinqDataCalcExtensions.MatrixTranspose<T>(T[,])
+  nameWithType.vb: LinqDataCalcExtensions.MatrixTranspose(Of T)(T(,))
+- uid: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose``1(``0[][])
+  name: MatrixTranspose<T>(T[][])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MatrixTranspose__1___0_____
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose``1(``0[][])
+  name.vb: MatrixTranspose(Of T)(T()())
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose<T>(T[][])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MatrixTranspose(Of T)(T()())
+  nameWithType: LinqDataCalcExtensions.MatrixTranspose<T>(T[][])
+  nameWithType.vb: LinqDataCalcExtensions.MatrixTranspose(Of T)(T()())
+- uid: LinqDataCalc.LinqDataCalcExtensions.MaxCollVals(System.Collections.Generic.List{System.Collections.Generic.List{System.Int32}},System.Boolean)
+  name: MaxCollVals(List<List<int>>, bool)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MaxCollVals_System_Collections_Generic_List_System_Collections_Generic_List_System_Int32___System_Boolean_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MaxCollVals(System.Collections.Generic.List{System.Collections.Generic.List{System.Int32}},System.Boolean)
+  name.vb: MaxCollVals(List(Of List(Of Integer)), Boolean)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MaxCollVals(System.Collections.Generic.List<System.Collections.Generic.List<int>>, bool)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MaxCollVals(System.Collections.Generic.List(Of System.Collections.Generic.List(Of Integer)), Boolean)
+  nameWithType: LinqDataCalcExtensions.MaxCollVals(List<List<int>>, bool)
+  nameWithType.vb: LinqDataCalcExtensions.MaxCollVals(List(Of List(Of Integer)), Boolean)
+- uid: LinqDataCalc.LinqDataCalcExtensions.MaxCollVals*
+  name: MaxCollVals
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MaxCollVals_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.MaxCollVals
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MaxCollVals
+  nameWithType: LinqDataCalcExtensions.MaxCollVals
+- uid: LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal(System.Int32[0:,0:],System.Boolean)
+  name: MaxMatrixVal(int[,], bool)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MaxMatrixVal_System_Int32_0__0___System_Boolean_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal(System.Int32[0:,0:],System.Boolean)
+  name.vb: MaxMatrixVal(Integer(,), Boolean)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal(int[,], bool)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal(Integer(,), Boolean)
+  nameWithType: LinqDataCalcExtensions.MaxMatrixVal(int[,], bool)
+  nameWithType.vb: LinqDataCalcExtensions.MaxMatrixVal(Integer(,), Boolean)
+- uid: LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal*
+  name: MaxMatrixVal
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MaxMatrixVal_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MaxMatrixVal
+  nameWithType: LinqDataCalcExtensions.MaxMatrixVal
+- uid: LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal(System.Int32[][],System.Boolean)
+  name: MaxMultiDimVal(int[][], bool)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MaxMultiDimVal_System_Int32_____System_Boolean_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal(System.Int32[][],System.Boolean)
+  name.vb: MaxMultiDimVal(Integer()(), Boolean)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal(int[][], bool)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal(Integer()(), Boolean)
+  nameWithType: LinqDataCalcExtensions.MaxMultiDimVal(int[][], bool)
+  nameWithType.vb: LinqDataCalcExtensions.MaxMultiDimVal(Integer()(), Boolean)
+- uid: LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal*
+  name: MaxMultiDimVal
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MaxMultiDimVal_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MaxMultiDimVal
+  nameWithType: LinqDataCalcExtensions.MaxMultiDimVal
+- uid: LinqDataCalc.LinqDataCalcExtensions.MedianValue(System.Collections.Generic.IEnumerable{System.Int32})
+  name: MedianValue(IEnumerable<int>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MedianValue_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.MedianValue(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: MedianValue(IEnumerable(Of Integer))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MedianValue(System.Collections.Generic.IEnumerable<int>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.MedianValue(System.Collections.Generic.IEnumerable(Of Integer))
+  nameWithType: LinqDataCalcExtensions.MedianValue(IEnumerable<int>)
+  nameWithType.vb: LinqDataCalcExtensions.MedianValue(IEnumerable(Of Integer))
+- uid: LinqDataCalc.LinqDataCalcExtensions.MedianValue*
+  name: MedianValue
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_MedianValue_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.MedianValue
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.MedianValue
+  nameWithType: LinqDataCalcExtensions.MedianValue
+- uid: LinqDataCalc.LinqDataCalcExtensions.ModeValues(System.Collections.Generic.IEnumerable{System.Int32})
+  name: ModeValues(IEnumerable<int>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ModeValues_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ModeValues(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: ModeValues(IEnumerable(Of Integer))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ModeValues(System.Collections.Generic.IEnumerable<int>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ModeValues(System.Collections.Generic.IEnumerable(Of Integer))
+  nameWithType: LinqDataCalcExtensions.ModeValues(IEnumerable<int>)
+  nameWithType.vb: LinqDataCalcExtensions.ModeValues(IEnumerable(Of Integer))
+- uid: LinqDataCalc.LinqDataCalcExtensions.ModeValues*
+  name: ModeValues
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ModeValues_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ModeValues
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ModeValues
+  nameWithType: LinqDataCalcExtensions.ModeValues
+- uid: LinqDataCalc.LinqDataCalcExtensions.Node
+  name: LinqDataCalcExtensions.Node
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.Node.html
+  commentId: T:LinqDataCalc.LinqDataCalcExtensions.Node
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Node
+  nameWithType: LinqDataCalcExtensions.Node
+- uid: LinqDataCalc.LinqDataCalcExtensions.Node.#ctor(LinqDataCalc.LinqDataCalcExtensions.Node,LinqDataCalc.LinqDataCalcExtensions.Node)
+  name: Node(Node, Node)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.Node.html#LinqDataCalc_LinqDataCalcExtensions_Node__ctor_LinqDataCalc_LinqDataCalcExtensions_Node_LinqDataCalc_LinqDataCalcExtensions_Node_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.Node.#ctor(LinqDataCalc.LinqDataCalcExtensions.Node,LinqDataCalc.LinqDataCalcExtensions.Node)
+  name.vb: New(Node, Node)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Node.Node(LinqDataCalc.LinqDataCalcExtensions.Node, LinqDataCalc.LinqDataCalcExtensions.Node)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.Node.New(LinqDataCalc.LinqDataCalcExtensions.Node, LinqDataCalc.LinqDataCalcExtensions.Node)
+  nameWithType: LinqDataCalcExtensions.Node.Node(LinqDataCalcExtensions.Node, LinqDataCalcExtensions.Node)
+  nameWithType.vb: LinqDataCalcExtensions.Node.New(LinqDataCalcExtensions.Node, LinqDataCalcExtensions.Node)
+- uid: LinqDataCalc.LinqDataCalcExtensions.Node.#ctor*
+  name: Node
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.Node.html#LinqDataCalc_LinqDataCalcExtensions_Node__ctor_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.Node.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Node.Node
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.Node.New
+  nameWithType: LinqDataCalcExtensions.Node.Node
+  nameWithType.vb: LinqDataCalcExtensions.Node.New
+- uid: LinqDataCalc.LinqDataCalcExtensions.Node.LeftChild
+  name: LeftChild
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.Node.html#LinqDataCalc_LinqDataCalcExtensions_Node_LeftChild
+  commentId: P:LinqDataCalc.LinqDataCalcExtensions.Node.LeftChild
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Node.LeftChild
+  nameWithType: LinqDataCalcExtensions.Node.LeftChild
+- uid: LinqDataCalc.LinqDataCalcExtensions.Node.LeftChild*
+  name: LeftChild
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.Node.html#LinqDataCalc_LinqDataCalcExtensions_Node_LeftChild_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.Node.LeftChild
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Node.LeftChild
+  nameWithType: LinqDataCalcExtensions.Node.LeftChild
+- uid: LinqDataCalc.LinqDataCalcExtensions.Node.RightChild
+  name: RightChild
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.Node.html#LinqDataCalc_LinqDataCalcExtensions_Node_RightChild
+  commentId: P:LinqDataCalc.LinqDataCalcExtensions.Node.RightChild
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Node.RightChild
+  nameWithType: LinqDataCalcExtensions.Node.RightChild
+- uid: LinqDataCalc.LinqDataCalcExtensions.Node.RightChild*
+  name: RightChild
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.Node.html#LinqDataCalc_LinqDataCalcExtensions_Node_RightChild_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.Node.RightChild
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.Node.RightChild
+  nameWithType: LinqDataCalcExtensions.Node.RightChild
+- uid: LinqDataCalc.LinqDataCalcExtensions.OddOrEven*
+  name: OddOrEven
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_OddOrEven_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.OddOrEven
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.OddOrEven
+  nameWithType: LinqDataCalcExtensions.OddOrEven
+- uid: LinqDataCalc.LinqDataCalcExtensions.OddOrEven``1(System.Collections.Generic.IEnumerable{``0})
+  name: OddOrEven<T>(IEnumerable<T>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_OddOrEven__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.OddOrEven``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: OddOrEven(Of T)(IEnumerable(Of T))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.OddOrEven<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.OddOrEven(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: LinqDataCalcExtensions.OddOrEven<T>(IEnumerable<T>)
+  nameWithType.vb: LinqDataCalcExtensions.OddOrEven(Of T)(IEnumerable(Of T))
+- uid: LinqDataCalc.LinqDataCalcExtensions.PowerOf(System.Int32,System.Int32)
+  name: PowerOf(int, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_PowerOf_System_Int32_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.PowerOf(System.Int32,System.Int32)
+  name.vb: PowerOf(Integer, Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.PowerOf(int, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.PowerOf(Integer, Integer)
+  nameWithType: LinqDataCalcExtensions.PowerOf(int, int)
+  nameWithType.vb: LinqDataCalcExtensions.PowerOf(Integer, Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.PowerOf*
+  name: PowerOf
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_PowerOf_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.PowerOf
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.PowerOf
+  nameWithType: LinqDataCalcExtensions.PowerOf
+- uid: LinqDataCalc.LinqDataCalcExtensions.ReorderElements*
+  name: ReorderElements
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ReorderElements_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ReorderElements
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ReorderElements
+  nameWithType: LinqDataCalcExtensions.ReorderElements
+- uid: LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator*
+  name: ReorderElementsIterator
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ReorderElementsIterator_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator
+  nameWithType: LinqDataCalcExtensions.ReorderElementsIterator
+- uid: LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  name: ReorderElementsIterator<T>(IEnumerable<T>, Random)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ReorderElementsIterator__1_System_Collections_Generic_IEnumerable___0__System_Random_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  name.vb: ReorderElementsIterator(Of T)(IEnumerable(Of T), Random)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator<T>(System.Collections.Generic.IEnumerable<T>, System.Random)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ReorderElementsIterator(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Random)
+  nameWithType: LinqDataCalcExtensions.ReorderElementsIterator<T>(IEnumerable<T>, Random)
+  nameWithType.vb: LinqDataCalcExtensions.ReorderElementsIterator(Of T)(IEnumerable(Of T), Random)
+- uid: LinqDataCalc.LinqDataCalcExtensions.ReorderElements``1(System.Collections.Generic.IEnumerable{``0})
+  name: ReorderElements<T>(IEnumerable<T>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ReorderElements__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ReorderElements``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ReorderElements(Of T)(IEnumerable(Of T))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ReorderElements<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ReorderElements(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: LinqDataCalcExtensions.ReorderElements<T>(IEnumerable<T>)
+  nameWithType.vb: LinqDataCalcExtensions.ReorderElements(Of T)(IEnumerable(Of T))
+- uid: LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple(System.Collections.Generic.IEnumerable{System.Int32},System.Double)
+  name: RndDoubleTuple(IEnumerable<int>, double)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_RndDoubleTuple_System_Collections_Generic_IEnumerable_System_Int32__System_Double_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple(System.Collections.Generic.IEnumerable{System.Int32},System.Double)
+  name.vb: RndDoubleTuple(IEnumerable(Of Integer), Double)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple(System.Collections.Generic.IEnumerable<int>, double)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple(System.Collections.Generic.IEnumerable(Of Integer), Double)
+  nameWithType: LinqDataCalcExtensions.RndDoubleTuple(IEnumerable<int>, double)
+  nameWithType.vb: LinqDataCalcExtensions.RndDoubleTuple(IEnumerable(Of Integer), Double)
+- uid: LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple*
+  name: RndDoubleTuple
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_RndDoubleTuple_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.RndDoubleTuple
+  nameWithType: LinqDataCalcExtensions.RndDoubleTuple
+- uid: LinqDataCalc.LinqDataCalcExtensions.RndIntTuple(System.Collections.Generic.IEnumerable{System.Int32})
+  name: RndIntTuple(IEnumerable<int>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_RndIntTuple_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.RndIntTuple(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: RndIntTuple(IEnumerable(Of Integer))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.RndIntTuple(System.Collections.Generic.IEnumerable<int>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.RndIntTuple(System.Collections.Generic.IEnumerable(Of Integer))
+  nameWithType: LinqDataCalcExtensions.RndIntTuple(IEnumerable<int>)
+  nameWithType.vb: LinqDataCalcExtensions.RndIntTuple(IEnumerable(Of Integer))
+- uid: LinqDataCalc.LinqDataCalcExtensions.RndIntTuple*
+  name: RndIntTuple
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_RndIntTuple_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.RndIntTuple
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.RndIntTuple
+  nameWithType: LinqDataCalcExtensions.RndIntTuple
+- uid: LinqDataCalc.LinqDataCalcExtensions.SequenceEquals*
+  name: SequenceEquals
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_SequenceEquals_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.SequenceEquals
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.SequenceEquals
+  nameWithType: LinqDataCalcExtensions.SequenceEquals
+- uid: LinqDataCalc.LinqDataCalcExtensions.SequenceEquals``1(``0[0:,0:],``0[0:,0:])
+  name: SequenceEquals<T>(T[,], T[,])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_SequenceEquals__1___0_0__0_____0_0__0___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.SequenceEquals``1(``0[0:,0:],``0[0:,0:])
+  name.vb: SequenceEquals(Of T)(T(,), T(,))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.SequenceEquals<T>(T[,], T[,])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.SequenceEquals(Of T)(T(,), T(,))
+  nameWithType: LinqDataCalcExtensions.SequenceEquals<T>(T[,], T[,])
+  nameWithType.vb: LinqDataCalcExtensions.SequenceEquals(Of T)(T(,), T(,))
+- uid: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Double})
+  name: StandardDeviation(IEnumerable<double>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_StandardDeviation_System_Collections_Generic_IEnumerable_System_Double__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Double})
+  name.vb: StandardDeviation(IEnumerable(Of Double))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable<double>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable(Of Double))
+  nameWithType: LinqDataCalcExtensions.StandardDeviation(IEnumerable<double>)
+  nameWithType.vb: LinqDataCalcExtensions.StandardDeviation(IEnumerable(Of Double))
+- uid: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Int32})
+  name: StandardDeviation(IEnumerable<int>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_StandardDeviation_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: StandardDeviation(IEnumerable(Of Integer))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable<int>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable(Of Integer))
+  nameWithType: LinqDataCalcExtensions.StandardDeviation(IEnumerable<int>)
+  nameWithType.vb: LinqDataCalcExtensions.StandardDeviation(IEnumerable(Of Integer))
+- uid: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Int64})
+  name: StandardDeviation(IEnumerable<long>)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_StandardDeviation_System_Collections_Generic_IEnumerable_System_Int64__
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Int64})
+  name.vb: StandardDeviation(IEnumerable(Of Long))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable<long>)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation(System.Collections.Generic.IEnumerable(Of Long))
+  nameWithType: LinqDataCalcExtensions.StandardDeviation(IEnumerable<long>)
+  nameWithType.vb: LinqDataCalcExtensions.StandardDeviation(IEnumerable(Of Long))
+- uid: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation*
+  name: StandardDeviation
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_StandardDeviation_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.StandardDeviation
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.StandardDeviation
+  nameWithType: LinqDataCalcExtensions.StandardDeviation
+- uid: LinqDataCalc.LinqDataCalcExtensions.TenPowerOf(System.Int32)
+  name: TenPowerOf(int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_TenPowerOf_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.TenPowerOf(System.Int32)
+  name.vb: TenPowerOf(Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.TenPowerOf(int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.TenPowerOf(Integer)
+  nameWithType: LinqDataCalcExtensions.TenPowerOf(int)
+  nameWithType.vb: LinqDataCalcExtensions.TenPowerOf(Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.TenPowerOf*
+  name: TenPowerOf
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_TenPowerOf_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.TenPowerOf
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.TenPowerOf
+  nameWithType: LinqDataCalcExtensions.TenPowerOf
+- uid: LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf(System.Collections.Generic.IEnumerable{System.Int32},System.Double)
+  name: ToDoublePowerOf(IEnumerable<int>, double)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ToDoublePowerOf_System_Collections_Generic_IEnumerable_System_Int32__System_Double_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf(System.Collections.Generic.IEnumerable{System.Int32},System.Double)
+  name.vb: ToDoublePowerOf(IEnumerable(Of Integer), Double)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf(System.Collections.Generic.IEnumerable<int>, double)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf(System.Collections.Generic.IEnumerable(Of Integer), Double)
+  nameWithType: LinqDataCalcExtensions.ToDoublePowerOf(IEnumerable<int>, double)
+  nameWithType.vb: LinqDataCalcExtensions.ToDoublePowerOf(IEnumerable(Of Integer), Double)
+- uid: LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf*
+  name: ToDoublePowerOf
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ToDoublePowerOf_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ToDoublePowerOf
+  nameWithType: LinqDataCalcExtensions.ToDoublePowerOf
+- uid: LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix(System.String,System.Int32[0:,0:])
+  name: ToIntMatrix(string, int[,])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ToIntMatrix_System_String_System_Int32_0__0___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix(System.String,System.Int32[0:,0:])
+  name.vb: ToIntMatrix(String, Integer(,))
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix(string, int[,])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix(String, Integer(,))
+  nameWithType: LinqDataCalcExtensions.ToIntMatrix(string, int[,])
+  nameWithType.vb: LinqDataCalcExtensions.ToIntMatrix(String, Integer(,))
+- uid: LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix*
+  name: ToIntMatrix
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ToIntMatrix_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ToIntMatrix
+  nameWithType: LinqDataCalcExtensions.ToIntMatrix
+- uid: LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
+  name: ToIntPowerOf(IEnumerable<int>, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ToIntPowerOf_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
+  name.vb: ToIntPowerOf(IEnumerable(Of Integer), Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf(System.Collections.Generic.IEnumerable<int>, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf(System.Collections.Generic.IEnumerable(Of Integer), Integer)
+  nameWithType: LinqDataCalcExtensions.ToIntPowerOf(IEnumerable<int>, int)
+  nameWithType.vb: LinqDataCalcExtensions.ToIntPowerOf(IEnumerable(Of Integer), Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf*
+  name: ToIntPowerOf
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_ToIntPowerOf_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.ToIntPowerOf
+  nameWithType: LinqDataCalcExtensions.ToIntPowerOf
+- uid: LinqDataCalc.LinqDataCalcExtensions.VectorProduct(System.Int32[],System.Int32[])
+  name: VectorProduct(int[], int[])
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_VectorProduct_System_Int32___System_Int32___
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.VectorProduct(System.Int32[],System.Int32[])
+  name.vb: VectorProduct(Integer(), Integer())
+  fullName: LinqDataCalc.LinqDataCalcExtensions.VectorProduct(int[], int[])
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.VectorProduct(Integer(), Integer())
+  nameWithType: LinqDataCalcExtensions.VectorProduct(int[], int[])
+  nameWithType.vb: LinqDataCalcExtensions.VectorProduct(Integer(), Integer())
+- uid: LinqDataCalc.LinqDataCalcExtensions.VectorProduct*
+  name: VectorProduct
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_VectorProduct_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.VectorProduct
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.VectorProduct
+  nameWithType: LinqDataCalcExtensions.VectorProduct
+- uid: LinqDataCalc.LinqDataCalcExtensions.add(System.Int32,System.Int32)
+  name: add(int, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_add_System_Int32_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.add(System.Int32,System.Int32)
+  name.vb: add(Integer, Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.add(int, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.add(Integer, Integer)
+  nameWithType: LinqDataCalcExtensions.add(int, int)
+  nameWithType.vb: LinqDataCalcExtensions.add(Integer, Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.add*
+  name: add
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_add_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.add
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.add
+  nameWithType: LinqDataCalcExtensions.add
+- uid: LinqDataCalc.LinqDataCalcExtensions.subtract(System.Int32,System.Int32)
+  name: subtract(int, int)
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_subtract_System_Int32_System_Int32_
+  commentId: M:LinqDataCalc.LinqDataCalcExtensions.subtract(System.Int32,System.Int32)
+  name.vb: subtract(Integer, Integer)
+  fullName: LinqDataCalc.LinqDataCalcExtensions.subtract(int, int)
+  fullName.vb: LinqDataCalc.LinqDataCalcExtensions.subtract(Integer, Integer)
+  nameWithType: LinqDataCalcExtensions.subtract(int, int)
+  nameWithType.vb: LinqDataCalcExtensions.subtract(Integer, Integer)
+- uid: LinqDataCalc.LinqDataCalcExtensions.subtract*
+  name: subtract
+  href: docs/LinqDataCalc.LinqDataCalcExtensions.html#LinqDataCalc_LinqDataCalcExtensions_subtract_
+  commentId: Overload:LinqDataCalc.LinqDataCalcExtensions.subtract
+  isSpec: "True"
+  fullName: LinqDataCalc.LinqDataCalcExtensions.subtract
+  nameWithType: LinqDataCalcExtensions.subtract

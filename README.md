@@ -46,4 +46,11 @@ Package installable from [online nuget source.](https://www.nuget.org/packages/L
 
 <br/>
 
+ <img src="https://res.cloudinary.com/dmjcetjt8/image/upload/v1701036002/New_tmplt_q6u4g7.png" style="height:80px;" title="other implement."/> &nbsp;&nbsp;Ported as partial IQueryable implementation of <a href="https://github.com/chrdek/Queryabl.DataCalc">Queryabl.DataCalc</a>
+
+<br/>
+
+
+<br/>
+
 ___.nupkg file tested with VS2017 IDE .net 4.6.2___
