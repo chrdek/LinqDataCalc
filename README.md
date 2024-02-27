@@ -40,7 +40,7 @@ General usage/setup:
 ```C#
 using static LinqDataCalc.LinqDataCalcExtensions;
 ```
-- Further usage, instructions on official [online documentation.](https://chrdek.github.io/docs/LinqDataCalc.html)
+- Further usage, instructions on official [online documentation.](https://chrdek.github.io/docs/LinqDataCalc/LinqDataCalc.html)
 
 Package installable from [online nuget source.](https://www.nuget.org/packages/LinqDataCalc/)
 
